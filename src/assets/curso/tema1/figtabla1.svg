@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="135" height="145" viewBox="0 0 135 145">
+  <g id="Grupo_929790" data-name="Grupo 929790" transform="translate(-355 -1672)">
+    <g id="Grupo_929780" data-name="Grupo 929780">
+      <path id="Trazado_666780" data-name="Trazado 666780" d="M241.022,158.956h5.139A5.5,5.5,0,0,0,245.5,148H241v0a4.033,4.033,0,0,1-4-4.02v-1a4.034,4.034,0,0,1,4.022-4.022h5.139A5.5,5.5,0,0,0,245.5,128h-52a5.5,5.5,0,0,0-.661,10.956h6.139A4.034,4.034,0,0,1,203,142.978v1A4.034,4.034,0,0,1,198.978,148H193.5a5.5,5.5,0,0,0-.661,10.956h6.139A4.034,4.034,0,0,1,203,162.978v1A4.034,4.034,0,0,1,198.978,168H193.5a5.5,5.5,0,0,0-.661,10.956h6.139A4.034,4.034,0,0,1,203,182.978v1A4.034,4.034,0,0,1,198.978,188H193.5a5.5,5.5,0,0,0,0,11H214v18h11V199h20.5a5.5,5.5,0,0,0,0-11H241v0a4.033,4.033,0,0,1-4-4.02v-1a4.034,4.034,0,0,1,4.022-4.022h5.139A5.5,5.5,0,0,0,245.5,168H241v0a4.033,4.033,0,0,1-4-4.02v-1A4.034,4.034,0,0,1,241.022,158.956Z" transform="translate(187 1572)" fill="#fff" stroke="#000" stroke-miterlimit="10" stroke-width="2"/>
+      <rect id="Rectángulo_327579" data-name="Rectángulo 327579" width="15" height="3" transform="translate(400 1787)" fill="#f7f7f7"/>
+    </g>
+    <text id="Presión_aplicada" data-name="Presión aplicada" transform="translate(355 1813)" fill="#12263f" font-size="14" font-family="SegoeUI, Segoe UI"><tspan x="0" y="0">Presión aplicada</tspan></text>
+    <text id="Fuerza" transform="translate(419 1687)" fill="#12263f" font-size="14" font-family="SegoeUI, Segoe UI"><tspan x="0" y="0">Fuerza</tspan></text>
+    <text id="Fuelle" transform="translate(453 1741)" fill="#12263f" font-size="14" font-family="SegoeUI, Segoe UI"><tspan x="0" y="0">Fuelle</tspan></text>
+    <path id="Icon_awesome-long-arrow-alt-up" data-name="Icon awesome-long-arrow-alt-up" d="M2.977,5.537v7.4a.294.294,0,0,0,.294.294H4.645a.294.294,0,0,0,.294-.294v-7.4H6.069a.589.589,0,0,0,.416-1l-2.11-2.11a.589.589,0,0,0-.832,0l-2.11,2.11a.589.589,0,0,0,.416,1Z" transform="translate(403.042 1782.757)"/>
+    <path id="Icon_open-arrow-thick-top" data-name="Icon open-arrow-thick-top" d="M6.5,0,0,6.563H4.375V17.5H8.75V6.563h4.375Z" transform="translate(400.438 1676.5)"/>
+  </g>
+</svg>

@@ -1,19 +1,186 @@
 .banner-principal-decorativo
   &-1
-    animation: float1 3.5s ease-in-out infinite alternate
+    animation: 3.5s rotate ease-in-out infinite
     position: absolute
-    top: 40%
-    right: 50%
-  &-2
-    animation: float1 2.8s ease-in-out infinite alternate
-    position: absolute
-    top: 51%
-    right: 30%
+    top: -7%
+    right: 10%
+    @media (max-width: 1400px)
+      right: 8.4%
+    @media (max-width: 1200px)
+      top: -10%
+      right: 6.5%
 
-
-@keyframes float1
+@keyframes rotate
   0%
-    transform: translateY(20px)
-
+    transform: rotate(0deg)
   100%
-    transform: translateY(0px)
+    transform: rotate(360deg)
+
+// banner interno
+.banner-interno__fondo
+  background-image: url("../assets/curso/portada/fondo-banner-interno.jpg") !important    
+
+.banner-interno__titulo__icono
+  background-color: white !important
+  
+.banner-interno__titulo h2
+  color: white !important 
+
+.banner-principal__img
+  align-self: center
+  padding-top: 1rem !important
+  padding-bottom: 0 !important
+
+.fondo
+  &-1
+    background-color: #EAF7FF !important
+  &-2
+    background-image: url("../assets/curso/tema1/fondo1.jpg")
+    background-position: top
+    background-size: cover
+    background-repeat: no-repeat
+  &-3
+    background-color: #AD84FF !important
+  &-4
+    background-color: #F7F7F7
+  &-5
+    background-color: #DEE4F0
+    border-radius: 50px
+  &-6
+    background-image: url("../assets/curso/tema1/fondo2.jpg")
+    background-position: top
+    background-size: cover
+    background-repeat: no-repeat
+  &-7
+    background-color: rgba(15, 88, 185, 0.25)
+  &-8
+    background-color: #F3F9FF
+  &-9
+    background-color: #DDCDFF
+  &-10
+    background-color: #ADF8FF
+  &-11
+    background-image: url("../assets/curso/tema1/fondo3.jpg")
+    background-position: top
+    background-size: cover
+    background-repeat: no-repeat
+  &-12
+    background-color: rgba(173, 248, 255, 0.35)
+  &-13
+    background-color: #fff
+  &-14
+    background-color: #DDF6FF
+  &-15
+    background-image: url("../assets/curso/tema1/fondo4.jpg")
+    background-position: top
+    background-size: cover
+    background-repeat: no-repeat
+  &-16
+    background-color: rgba(173, 132, 255, 0.35)
+  &-17
+    background-color: rgba(15, 88, 185, 0.35)
+  &-18
+    background-color: rgba(210, 255, 241, 0.1)
+  &-19
+    background-color: #ECE3FF
+  &-20
+    background-color: rgba(173, 132, 255, 0.25)
+  &-21
+    background-color: #2E0877
+  &-22
+    background-color: #F5F1FE
+
+//- fuente
+.fuente14
+  font-size: 14px
+
+.colorfuente
+  color: #006DF0 !important
+
+.fondo-blanco
+  background-color: #fff
+  border: 1px solid #7070703b
+
+.redondearpuntas
+  border-radius: 15px
+
+.sombras
+  box-shadow: 2px 2px 3px 1px #7070703b
+
+// espacio entre colunmnas
+.gridcolumna
+  @media (min-width: 991px)
+    width: 49% !important
+
+//- slider A tipo B
+.slyder-a__btn--sigt, .slyder-a__btn--atrs
+  background-color: #AD84FF
+
+.slyder-a__bullets__item--active
+  background-color: #1B3F5E !important
+  border-color: #1B3F5E
+  opacity: 1
+
+.slyder-a__bullets__item
+  background-color: rgba(27, 63, 94, 0.35)
+  border-color: rgba(27, 63, 94, 0.35)
+  @media (max-width: 400px)
+    width: 15px
+    height: 15px
+    margin: 0 2px
+
+//- configuración texto
+.resaltado
+  background-color: #E1D3FF
+
+//-paddings y margenes
+.pad1
+  padding: 1% 1% 1% 5.5%
+  @media (max-width: 768px)
+    padding: 4.5% 1% 4.5% 4.5%
+
+.correr-izq
+  margin-left: -60px
+  @media (max-width: 1200px)
+    margin-left: -40px
+  @media (max-width: 991px)
+    margin-left: -30px
+  @media (max-width: 768px)
+    margin-left: -20px
+  @media (max-width: 576px)
+    margin-left: -15px
+
+//- ampliar fondo
+.ampliar
+  margin-left: -50px
+  margin-right: -50px
+
+//- Tabla a
+.tabla-a table 
+  min-width: 500px
+
+.sinborde
+  border-top: 0 solid #fff  !important
+  border-bottom: 0 solid #fff  !important
+
+.sinbordeizq
+  border-left: 0 solid #fff  !important
+
+.sinbordeder
+  border-right: 0 solid #fff  !important
+
+//- imagenes
+.proporcion
+  width: 50%
+  margin: 0 auto
+
+.ajustarimg
+  width: 41%
+  margin: 0 auto
+
+.ajustarimg1
+  width: 30%
+  margin: 0 auto
+
+.desbordamiento
+  overflow: hidden

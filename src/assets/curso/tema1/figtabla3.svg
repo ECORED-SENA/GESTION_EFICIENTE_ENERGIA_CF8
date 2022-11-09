@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="150.736" height="129.565" viewBox="0 0 150.736 129.565">
+  <g id="Grupo_929788" data-name="Grupo 929788" transform="translate(-1141.5 -1698.435)">
+    <g id="Grupo_929787" data-name="Grupo 929787" transform="translate(1143 1698.435)">
+      <g id="Grupo_929782" data-name="Grupo 929782" transform="translate(6.391 6.391)">
+        <path id="Trazado_666782" data-name="Trazado 666782" d="M422.638,222.276a37.638,37.638,0,1,1,37.638-37.638A37.681,37.681,0,0,1,422.638,222.276Zm0-72.436a34.8,34.8,0,1,0,34.8,34.8A34.837,34.837,0,0,0,422.638,149.841Z" transform="translate(-385 -147)"/>
+      </g>
+      <g id="Grupo_929783" data-name="Grupo 929783" transform="translate(0)">
+        <path id="Trazado_666783" data-name="Trazado 666783" d="M424.53,230.559a44.029,44.029,0,1,1,44.029-44.029A44.08,44.08,0,0,1,424.53,230.559Zm0-85.218a41.189,41.189,0,1,0,41.189,41.189A41.235,41.235,0,0,0,424.53,145.341Z" transform="translate(-380.5 -142.5)"/>
+      </g>
+      <g id="Grupo_929784" data-name="Grupo 929784" transform="translate(44.358 45.39)">
+        <rect id="Rectángulo_327581" data-name="Rectángulo 327581" width="53.643" height="44.358" transform="translate(0 0)" fill="#f7f7f7"/>
+      </g>
+      <g id="Grupo_929785" data-name="Grupo 929785" transform="translate(41.544 72.436)">
+        <path id="Trazado_666784" data-name="Trazado 666784" d="M423.243,223.326H413.3v-5.681H409.75V193.5h17.044v24.145h-3.551Zm-7.1-2.841H420.4V214.8h3.551V196.341H412.591V214.8h3.551Z" transform="translate(-409.75 -193.5)"/>
+      </g>
+      <g id="Grupo_929786" data-name="Grupo 929786" transform="translate(83.778 45.296)">
+        <path id="Trazado_666785" data-name="Trazado 666785" d="M439.486,174.392" transform="translate(-439.486 -174.392)" fill="none" stroke="#000" stroke-miterlimit="10" stroke-width="2"/>
+      </g>
+      <path id="Trazado_666786" data-name="Trazado 666786" d="M412.946,200.024v3.551l-3.2-.075v-3.557Z" transform="translate(-368.206 -118.357)" fill="#fff"/>
+    </g>
+    <path id="Trazado_666787" data-name="Trazado 666787" d="M-10078.8-9956.4s3.135,4.823,6.993,0" transform="translate(11302.216 11698.567)" fill="none" stroke="#000" stroke-width="3"/>
+    <text id="Tubo_Bourdon" data-name="Tubo 
+Bourdon" transform="translate(1192 1734)" fill="#12263f" font-size="14" font-family="SegoeUI, Segoe UI"><tspan x="-17.763" y="0">Tubo </tspan><tspan x="-26.694" y="18">Bourdon</tspan></text>
+    <rect id="Rectángulo_327582" data-name="Rectángulo 327582" width="20" height="6" transform="translate(1184 1797)" fill="#f7f7f7"/>
+    <text id="Presión_aplicada" data-name="Presión aplicada" transform="translate(1141.5 1824)" fill="#12263f" font-size="14" font-family="SegoeUI, Segoe UI"><tspan x="0" y="0">Presión aplicada</tspan></text>
+    <path id="Icon_awesome-long-arrow-alt-up" data-name="Icon awesome-long-arrow-alt-up" d="M2.977,5.537v7.4a.294.294,0,0,0,.294.294H4.645a.294.294,0,0,0,.294-.294v-7.4H6.069a.589.589,0,0,0,.416-1l-2.11-2.11a.589.589,0,0,0-.832,0l-2.11,2.11a.589.589,0,0,0,.416,1Z" transform="translate(1189.242 1795.757)"/>
+    <text id="Fuerza" transform="translate(1251.236 1719)" fill="#12263f" font-size="14" font-family="SegoeUI, Segoe UI"><tspan x="0" y="0">Fuerza</tspan></text>
+    <path id="Icon_open-arrow-thick-top" data-name="Icon open-arrow-thick-top" d="M6.5,0,0,6.563H4.375V17.5H8.75V6.563h4.375Z" transform="matrix(0.391, 0.921, -0.921, 0.391, 1246.108, 1709.581)"/>
+  </g>
+</svg>

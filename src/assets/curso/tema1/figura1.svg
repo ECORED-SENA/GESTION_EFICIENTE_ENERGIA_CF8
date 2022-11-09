@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="70" height="70" viewBox="0 0 70 70">
+  <g id="Grupo_936799" data-name="Grupo 936799" transform="translate(-328 -2097)">
+    <g id="Grupo_936603" data-name="Grupo 936603" transform="translate(328 2097)">
+      <circle id="Elipse_4817" data-name="Elipse 4817" cx="35" cy="35" r="35" fill="#fff"/>
+    </g>
+    <g id="youtube" transform="translate(345.666 2114.666)">
+      <path id="Trazado_678085" data-name="Trazado 678085" d="M26,34.667H8.667A8.667,8.667,0,0,1,0,26V8.667A8.667,8.667,0,0,1,8.666,0H26a8.667,8.667,0,0,1,8.667,8.667V26A8.667,8.667,0,0,1,26,34.667" transform="translate(0 0)" fill="#ad84ff" fill-rule="evenodd"/>
+      <path id="Trazado_678086" data-name="Trazado 678086" d="M16.25,9.75H26A4.875,4.875,0,0,0,26.5.025C26.333.016,26.169,0,26,0H8.667A8.667,8.667,0,0,0,0,8.666V26A16.25,16.25,0,0,1,16.25,9.75" fill="#2e0877" fill-rule="evenodd" opacity="0.2"/>
+      <path id="Trazado_678087" data-name="Trazado 678087" d="M40.667,24.667a8.667,8.667,0,1,0,8.667,8.667V16a8.667,8.667,0,0,1-8.667,8.667" transform="translate(-14.667 -7.333)" fill="#2e0877" fill-rule="evenodd" opacity="0.22"/>
+      <path id="Trazado_678088" data-name="Trazado 678088" d="M23.651,17.74A1.083,1.083,0,0,0,22,18.662V32.119a1.083,1.083,0,0,0,1.651.922l10.933-6.728a1.083,1.083,0,0,0,0-1.845L23.651,17.74Z" transform="translate(-10.083 -8.057)" fill="#fff" fill-rule="evenodd"/>
+    </g>
+  </g>
+</svg>

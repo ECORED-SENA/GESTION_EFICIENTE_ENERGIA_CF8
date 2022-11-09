@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="192.332" height="187.417" viewBox="0 0 192.332 187.417">
+  <defs>
+    <linearGradient id="linear-gradient" x1="-13.337" y1="-40.221" x2="-12.357" y2="-40.021" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#09005d"/>
+      <stop offset="1" stop-color="#1a0f91"/>
+    </linearGradient>
+  </defs>
+  <g id="Grupo_936744" data-name="Grupo 936744" transform="translate(-22.746 12.298)">
+    <path id="Trazado_678230" data-name="Trazado 678230" d="M63.158,1.394C60.705-10.675,20.27,59.116,6.843,76.284S3.89,98.845,3.89,98.845l1.757,1.663.008,0A12.348,12.348,0,0,0,19,94.8C31.414,72.7,65.162,11.249,63.158,1.394Z" transform="translate(68.771 19.323) rotate(-30)" fill="#25ffff"/>
+    <path id="Trazado_678231" data-name="Trazado 678231" d="M62.448,99.679c11.769,3.634-30.091-65.312-38.72-85.327S5.478,1.1,5.478,1.1L3.309,2,3.3,2A11.586,11.586,0,0,0,1.786,16.3C15.226,37.789,52.84,96.712,62.448,99.679Z" transform="translate(117.864 82.569) rotate(-22)" fill="#25ffff"/>
+    <path id="Trazado_678232" data-name="Trazado 678232" d="M.921,26.9C-9.419,20.209,70.318,8.055,91.2,1.825s21.746,5.488,21.746,5.488l.572,2.241v.008c0,5.321-4.572,9.606-9.861,10.34C78.56,23.387,9.363,32.364.921,26.9Z" transform="translate(22.746 133.726) rotate(-31)" fill="#25ffff"/>
+    <g id="Grupo_936743" data-name="Grupo 936743" transform="translate(108.806 75.507)">
+      <path id="Trazado_678233" data-name="Trazado 678233" d="M2135.923,837.112a12.54,12.54,0,1,1-7.318-16.154A12.54,12.54,0,0,1,2135.923,837.112Z" transform="translate(-2111.644 -820.15)" fill="url(#linear-gradient)"/>
+      <g id="Grupo_936742" data-name="Grupo 936742" transform="translate(3.612 3.642)">
+        <path id="Trazado_678234" data-name="Trazado 678234" d="M2126.878,844.414a8.962,8.962,0,1,1,8.4-5.8h0A8.975,8.975,0,0,1,2126.878,844.414Zm.006-16.646a7.683,7.683,0,1,0,7.193,10.392h0a7.693,7.693,0,0,0-7.193-10.392Z" transform="translate(-2117.928 -826.487)" fill="#7d97f4"/>
+      </g>
+    </g>
+  </g>
+</svg>
