@@ -2,14 +2,14 @@
 .curso-main-container.pb-3
   BannerInterno
   .container.tarjeta.tarjeta--blanca.p-4.p-md-5.mb-5
-    .titulo-principal.color-acento-contenido
+    .titulo-principal.color-acento-botones(data-aos="fade-down-right")
       .titulo-principal__numero
         span 1
       h1 Instrumentos de medición energética
-    span.mt-5.resaltado Muchas veces para alcanzar los objetivos que se plantean tanto a nivel personal, 
+    span.mt-5.resaltado(data-aos="fade-down-right") Muchas veces para alcanzar los objetivos que se plantean tanto a nivel personal, 
     span profesional, y en general en cualquier proceso dentro de una organización, es necesario alcanzar el control de la variable que determina si se está alcanzado la meta o por el contrario se está más lejos de alcanzarla. Por ejemplo, si alguna persona quiere mejorar su salud disminuyendo su peso corporal, lo primero que hace es medir el valor actual de su peso corporal utilizando un instrumento llamado balanza y posteriormente lo compara con el peso ideal que se desea alcanzar; la diferencia entre estos valores determina la cantidad de peso debe bajar.
     p Se invita a visualizar los instrumentos de medición energética, y la medición de presión:
-    .tarjeta.fondo-1.p-4.mb-5
+    .tarjeta.fondo-1.p-4.mb-5(data-aos="fade-down-right")
       SlyderA.my-5(tipo="b")
         .row.justify-content-center.align-items-center
           .col-lg-6.col-md-12.mb-4.mb-lg-0
