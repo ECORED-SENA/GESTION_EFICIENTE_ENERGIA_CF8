@@ -119,7 +119,7 @@
                     span Teoría de radiación
     figure(data-aos="fade-down-right")
       .video
-        iframe(width="560" height="315" src="https://www.youtube.com/embed/2L91WMqw96A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
+        iframe(width="560" height="315" src="https://www.youtube.com/embed/c-BIULucPEg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
     p.my-5(data-aos="fade-down-left") Para la determinación de la irradiación global horizontal diaria en alguna zona específica del país, se tienen varias opciones dentro de las cuales se destacan las siguientes:
     //- titulo con figura
     .row.align-items-center.correr-izq.mb-0(data-aos="fade-down-right")

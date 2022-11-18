@@ -610,7 +610,7 @@
     p.my-5(data-aos="fade-down-left") Explorar cómo medir la radiación solar.
     figure.mb-5(data-aos="fade-down-right")
       .video
-        iframe(width="560" height="315" src="https://www.youtube.com/embed/2L91WMqw96A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
+        iframe(width="560" height="315" src="https://www.youtube.com/embed/Zo2y8HNi3X4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
     .row.fondo-15.ampliar.px-5
       .col-12
         p.my-5(data-aos="fade-down-right") Algunas imágenes de piranómetros se muestran a continuación:

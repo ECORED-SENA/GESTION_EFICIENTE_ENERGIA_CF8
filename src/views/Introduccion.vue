@@ -13,7 +13,7 @@
     span(data-aos="fade-down-right") fuentes primarias y fuentes secundarias. Se denomina fuentes primarias de energía a aquellas que se encuentran en la naturaleza y son utilizadas para ser transformadas a otro tipo de energía denominada secundaria aprovechando las leyes físicas y la tecnología existente, se debe revisar la siguiente presentación para saber más acerca de este tema.
     figure.my-5(data-aos="fade")
       .video
-        iframe(width="560" height="315" src="https://www.youtube.com/embed/2L91WMqw96A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
+        iframe(width="560" height="315" src="https://www.youtube.com/embed/_FRP3zLz3xk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
 </template>
 
 <script>
