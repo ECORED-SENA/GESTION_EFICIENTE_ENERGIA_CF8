@@ -41,7 +41,7 @@
 
         .row.justify-content-center.align-items-center
           .col-lg-6.col-md-12.mb-4.mb-lg-0
-            p.text-bold Medición de Presión.
+            p.text-bold Medición de Presión
             p La presión se define como la división entre el valor de una fuerza aplicada y el área de la superficie donde dicha fuerza se aplica. En el Sistema Internacional (SI) la unidad normalizada para la presión es el Pascal (Pa) definido como la fuerza que ejerce 1 Newton por metro cuadrado [N/m2]. En la industria las unidades de presión que más se utilizan son el Bar y el Psi. 
             p En la vida cotidiana es común encontrar referencia a la presión cuando se requiere conocer si las llantas de un automóvil están infladas a la presión correcta que en promedio es de 32 Psi, también cuando se requiere conocer la presión a la que llega el suministro de agua potable a nuestros hogares. Es decir, la presión se puede medir en fluidos como líquidos y gases. 
             span.text-bold  El resultado de la medida de presión varía dependiendo de las características del lugar 
@@ -113,13 +113,19 @@
               tr
                 td.desbordamiento.fondo-4
                   span.text-bold Nota. 
-                  span García Gutiérrez, L. (2014). Instrumentación básica de medida y control. AENOR - Asociación Española de Normalización y Certificación. p. 17. https://elibro-net.bdigital.sena.edu.co/es/lc/senavirtual/titulos/53600
+                  span García Gutiérrez, L. (2014). Instrumentación básica de medida y control. AENOR - Asociación Española de Normalización y Certificación. p. 17. 
+                    a.mb-4(:href="('https://elibro-net.bdigital.sena.edu.co/es/lc/senavirtual/titulos/53600')" target="_blank")
+                      span.colorfuente https://elibro-net.bdigital.sena.edu.co/es/lc/senavirtual/titulos/53600
                 td.desbordamiento 
                   span.text-bold Nota. 
-                  span García Gutiérrez, L. (2014). Instrumentación básica de medida y control. AENOR - Asociación Española de Normalización y Certificación. p. 17. https://elibro-net.bdigital.sena.edu.co/es/lc/senavirtual/titulos/53600
+                  span García Gutiérrez, L. (2014). Instrumentación básica de medida y control. AENOR - Asociación Española de Normalización y Certificación. p. 17. 
+                    a.mb-4(:href="('https://elibro-net.bdigital.sena.edu.co/es/lc/senavirtual/titulos/53600')" target="_blank")
+                      span.colorfuente https://elibro-net.bdigital.sena.edu.co/es/lc/senavirtual/titulos/53600
                 td.desbordamiento.fondo-4 
                   span.text-bold Nota. 
-                  span García Gutiérrez, L. (2014). Instrumentación básica de medida y control. AENOR - Asociación Española de Normalización y Certificación. p. 18. https://elibro-net.bdigital.sena.edu.co/es/lc/senavirtual/titulos/53600
+                  span García Gutiérrez, L. (2014). Instrumentación básica de medida y control. AENOR - Asociación Española de Normalización y Certificación. p. 18. 
+                    a.mb-4(:href="('https://elibro-net.bdigital.sena.edu.co/es/lc/senavirtual/titulos/53600')" target="_blank")
+                      span.colorfuente https://elibro-net.bdigital.sena.edu.co/es/lc/senavirtual/titulos/53600
         .row.justify-content-center
           .col-lg-10.col-md-12(data-aos="fade-down-right")
             .tarjeta.color-primario.p-3.mb-5
@@ -129,7 +135,7 @@
                 .col
                   .row.justify-content-between.align-items-center
                     .col.mb-3.mb-sm-0.text-white
-                      p.text-bold.mb-0 ¿Cómo funciona un manómetro || medida de la presión relativa?
+                      p.text-bold.mb-0 En el siguiente video se podrá ver el interior de un medidor de presión mecánico de tipo tubo Bourdon: 
                     .col-sm-auto
                       a.boton.color-acento-botones(:href="('https://www.youtube.com/watch?v=4dXwxFJPTg8')" target="_blank")
                         span Ver video
@@ -195,7 +201,7 @@
               span.colorfuente https://www.bloginstrumentacion.com/productos/como-funciona-un-transmisor-de-presion/
     separador
     #t_1_2.titulo-segundo.color-acento-botones(data-aos="fade-down-right")
-      h2 1.2 Medición de Temperatura.
+      h2 1.2 Medición de temperatura
     p.mb-5(data-aos="fade-down-left") Conocer la medición de temperatura, a partir de la siguiente didáctica.
     .row.justify-content-center
       .col-lg-10.col-md-12.fondo-8.p-5(data-aos="fade-down-right")
@@ -252,7 +258,7 @@
         p.my-5(data-aos="fade-down-right") A continuación, se muestran algunas características de los termómetros de vidrio:
         .row.justify-content-center
           .col-lg-10.col-md-12.fondo-blanco.sombras.redondearpuntas.p-4(data-aos="fade-down-right")
-            p.text-bold.text-center Termómetros de Vidrio
+            p.text-bold.text-center Termómetros de vidrio
             .row.justify-content-center
               .col-lg-6.col-md-12(data-aos="fade-down-right")
                 p.text-center Termómetro de vidrio tipo industrial. Fabricante WIKA
@@ -264,7 +270,7 @@
         p.mb-5(data-aos="fade-down-left") A continuación, se muestran algunas características de los termómetros de vidrio:
         .row.justify-content-center
           .col-lg-10.col-md-12.fondo-blanco.sombras.redondearpuntas.p-4(data-aos="fade-down-right")
-            p.text-center.text-bold Termómetro Bimetálico
+            p.text-center.text-bold Termómetro bimetálico
             .row.justify-content-center
               .col-lg-5.col-md-12(data-aos="fade-down-right")
                 p.text-center Interior de termómetro bimetálico con muelle laminado helicoidal
@@ -277,7 +283,7 @@
       .col-1.pad1
         img(src='@/assets/curso/tema1/triangulo.svg')
       .col-11
-        h4.mb-0.ps-0.ms-0 B. Termómetros de principio resistivo (termorresistencias).
+        h4.mb-0.ps-0.ms-0 B. Termómetros de principio resistivo (termorresistencias)
     p(data-aos="fade-down-right") Estos instrumentos de medición de temperatura aprovechan el principio de variación de la resistencia de los elementos cuando son expuestos a cambios en la temperatura. El elemento consiste generalmente de un arrollamiento de un conductor muy fino protegido por un material aislante como la cerámica o el vidrio. Este tipo de sensores o sondas también son llamados RTD por su acrónimo en inglés detector de temperatura de resistencia. Los materiales que se usan normalmente en los sensores de temperatura son el platino y el níquel. La sonda o sensor más utilizado en la industria se denomina Pt-100 y es llamado así porque está fabricado con platino y su característica principal es que el valor de su resistencia eléctrica es de 100 ohmios cuando se somete a una temperatura de 0 °C. 
     .row.justify-content-center.my-5
       .col-lg-5.col-md-12.mb-4(data-aos="fade-down-right")
@@ -351,7 +357,7 @@
           img(src='@/assets/curso/tema1/triangulo.svg')
         .col-11
           h4.mb-0.ps-0.ms-0 C. Termopares
-    p.my-5(data-aos="fade-down-left") Este tipo de instrumentos de medición de temperatura basan su funcionamiento en el principio del efecto Seebeck por medio del cual se demostró que cuando se tienen dos hilos (normalmente en forma de alambre) de metales diferentes unidos en un solo extremo, y dicha unión se calienta o se enfría, se produce un voltaje que se puede correlacionar con el valor real de la temperatura. A diferencia de los termómetros bimetálicos, los termopares no están laminados entre sí, sino que se unen en un extremo con un proceso de soldadura. Existen diferentes tipos de termopar los cuales están clasificados por una letra y se diferencian en los tipo de metales utilizados y el rango de temperatura en que pueden ser usados. La selección del tipo de termopar a utilizar dependerá de las condiciones ambientales del proceso a medir. 
+    p.my-5(data-aos="fade-down-left") Este tipo de instrumentos de medición de temperatura basan su funcionamiento en el principio del efecto <em>Seebeck</em> por medio del cual se demostró que cuando se tienen dos hilos (normalmente en forma de alambre) de metales diferentes unidos en un solo extremo, y dicha unión se calienta o se enfría, se produce un voltaje que se puede correlacionar con el valor real de la temperatura. A diferencia de los termómetros bimetálicos, los termopares no están laminados entre sí, sino que se unen en un extremo con un proceso de soldadura. Existen diferentes tipos de termopar los cuales están clasificados por una letra y se diferencian en los tipo de metales utilizados y el rango de temperatura en que pueden ser usados. La selección del tipo de termopar a utilizar dependerá de las condiciones ambientales del proceso a medir. 
     .row.justify-content-center
       .col-lg-6.col-md-12.fondo-12.p-4.mb-4(data-aos="fade-down-right")
         .tabla-a.color-acento-botones.text-center
@@ -401,7 +407,7 @@
                     i.fas.fa-link
     .row.fondo-15.ampliar.px-5
       .col-12
-        p.my-5(data-aos="fade-down-right") A continuación, se muestran algunas características de los termómetros de principio resistivo:
+        p.my-5(data-aos="fade-down-right") A continuación, se muestran algunas características de los termopares:
         .row.justify-content-center
           .col-lg-10.col-md-12.my-5.fondo-blanco.redondearpuntas.sombras.p-4
             p.text-center.text-bold(data-aos="fade-down-right") Termopar
@@ -447,11 +453,7 @@
       SlyderA.my-5(tipo="b")
         .row.justify-content-center.align-items-center
           .col-lg-6.col-md-12.mb-4.mb-lg-0
-            p Continuando con el ejemplo de la persona que desea bajar de peso, para lograr la meta, esta persona toma algunas decisiones acerca de su dieta o actividad física, acompañado siempre de la 
-              span.text-bold medición 
-              span de su 
-              span.text-bold  peso corporal 
-              span En general existen gran cantidad de tecnologías para la medición y detección de nivel. Dichas tecnologías se pueden aplicar tanto a medición de nivel en líquidos y algunas en la medición de nivel en sólidos con marcadas diferencias por el tipo de aplicación y las condiciones ambientales. 
+            p En general existen gran cantidad de tecnologías para la medición y detección de nivel. Dichas tecnologías se pueden aplicar tanto a medición de nivel en líquidos y algunas en la medición de nivel en sólidos con marcadas diferencias por el tipo de aplicación y las condiciones ambientales. 
         
           .col-lg-5.col-md-12
             figure
@@ -469,11 +471,11 @@
       .col-1.pad1
         img(src='@/assets/curso/tema1/triangulo.svg')
       .col-11
-        h4.mb-0.ps-0.ms-0  A. Medición continua de nivel con instrumentos tipo Flotador
+        h4.mb-0.ps-0.ms-0  A. Medición continua de nivel con instrumentos tipo flotador
     p.my-5(data-aos="fade-down-left") Complementar la información de la didáctica de medición de nivel, conociendo diferentes instrumentos de medición.
     .row.justify-content-center.mb-5
       .col-lg-10.col-md-12.fondo-18.redondearpuntas.px-4.py-5
-        h4.mb-4.ms-5 Medición continua de nivel con instrumentos tipo Flotador.
+        h4.mb-4.ms-5 Medición continua de nivel con instrumentos tipo flotador
         .row.justify-content-center.align-items-center
           .col-lg-11.col-md-8.col-sm-10.col-11.fondo-8.p-0.redondearpuntas
             .row.justify-content-center.align-items-center
@@ -496,7 +498,7 @@
               .col-lg-4.col-md-12.m-0.p-0(data-aos="fade-down-right")
                 img.m-0.p-0(src='@/assets/curso/tema1/imagen20.png')
               .col-lg-8.col-md-12.mb-0.py-4(data-aos="fade-down-leftt")
-                p.p-3 Utiliza un imán al interior del flotador, que sube y baja a través de un eje que posee internamente unos microinterruptores llamados Reed switch que se van cerrando a medida que el flotador pasa por ese punto.
+                p.p-3 Utiliza un imán al interior del flotador, que sube y baja a través de un eje que posee internamente unos microinterruptores llamados <em>Reed switch</em> que se van cerrando a medida que el flotador pasa por ese punto.
         h4.mb-4.ms-5 Estos interruptores 
         .row.justify-content-center.align-items-center
           .col-lg-11.col-md-8.col-sm-10.col-11.fondo-8.p-0.redondearpuntas
@@ -506,18 +508,15 @@
               .col-lg-8.col-md-12.mb-0.py-4(data-aos="fade-down-leftt")
                 p.p-3 Están acoplados a unas resistencias y a través de un circuito electrónico se detecta el valor de la resistencia para conocer el valor del nivel del líquido a medir.
     .row.justify-content-center.align-items-center
-      .col-12.fondo-19.redondearpuntas.p-4
-        .row.justify-content-center.align-items-center
-          .col-lg-4.col-md-12(data-aos="fade-down-right")
-            img(src='@/assets/curso/tema1/imagen22.png')
-          .col-lg-7.col-md-12(data-aos="fade-down-left")
-            p En el siguiente video se muestra el funcionamiento de un medidor de nivel tipo flotador con cadena de resistencias <em>reed switch</em>:
-            .col-lg-10.col-md-12
-              a.anexo.mb-4.mb-lg-0(href="https://www.youtube.com/watch?v=ujPcgDLch1J" target="_blank")
-                .anexo__icono
-                  img(src="@/assets/template/icono-link.svg")
-                .anexo__texto
-                  p.colorfuente.fuente14.text-bold WIKA - Medición de nivel con sensor de flotador de cadena <em>Reed</em>.
+      .col-12.fondo-19.redondearpuntas.p-4(data-aos="fade-down-left")
+        p.text-center En el siguiente video se muestra el funcionamiento de un medidor de nivel tipo flotador con cadena de resistencias <em>reed switch</em>:
+        .row.justify-content-center
+          .col-auto
+            a.anexo.mb-4.mb-lg-0(href="https://www.youtube.com/watch?v=ujPcgDLch1J" target="_blank")
+              .anexo__icono
+                img(src="@/assets/template/icono-link.svg")
+              .anexo__texto
+                p.colorfuente.fuente14.text-bold WIKA - Medición de nivel con sensor de flotador de cadena <em>Reed</em>.
     //- titulo con figura
     .row.align-items-center.correr-izq.mb-0.mt-5(data-aos="fade-down-right")
       .col-1.pad1
@@ -553,8 +552,7 @@
             p.text-center P = p x g x h   
             p.text-center donde,P: presión hidrostática (Pa),p: densidad del fluido (kg/m3),g: aceleración de la gravedad ( m/s2),
             p.text-center h: altura de la columna vertical de fluido por encima del punto de medida de presión (m)
-    p.my-5(data-aos="fade-down-right") En el siguiente video se muestra el funcionamiento básico de un medidor de nivel por presión hidrostática
-    .row.justify-content-center.align-items-center
+    .row.justify-content-center.align-items-center.my-5
       .col-12.fondo-19.redondearpuntas.p-4
         .row.justify-content-center.align-items-center
           .col-lg-4.col-md-12(data-aos="fade-down-right")
@@ -574,22 +572,43 @@
       .col-11
         h4.mb-0.ps-0.ms-0 D. Medición continua de nivel con instrumentos sin contacto.
     p.my-5(data-aos="fade-down-left") Explorar la siguiente didáctica, descubriendo cómo medir niveles con instrumentos sin contacto.     
-    .tarjeta--container.row.mb-5(data-aos="fade-down-right")
-      .col-md.tarjeta.color-secundario.p-5
-        .row.justify-content-center.mb-4
-          .col-5
+    .tarjeta.fondo-1.p-4.mb-5(data-aos="fade-down-right")
+      SlyderA.my-5(tipo="b")
+        .row.justify-content-center.align-items-center
+          .col-lg-6.col-md-12.mb-4.mb-lg-0
+            h4 Medición continua de nivel con instrumentos sin contacto
+            p Los anteriores métodos de medición continua de nivel utilizan sensores que están en contacto directo con el fluido a medir.
+        
+          .col-lg-5.col-md-12
             figure
-              img(src='@/assets/curso/tema1/figura9.svg')
-          
-        p En general existen gran cantidad de tecnologías para la medición y detección de nivel. Dichas tecnologías se pueden aplicar tanto a medición de nivel en líquidos y algunas en la medición de nivel en sólidos con marcadas diferencias por el tipo de aplicación y las condiciones ambientales. 
+              img(src='@/assets/curso/tema1/imagen36.png')
+        .row.justify-content-center.align-items-center
+          .col-lg-6.col-md-12.mb-4.mb-lg-0
+            h4 En las aplicaciones 
+            p Y condiciones ambientales donde no es conveniente el contacto directo del sensor con el fluido o sólido a medir, es posible utilizar sensores que utilizan tecnologías sin contacto. Las tecnologías más utilizadas en la industria para este tipo de aplicaciones son:
+        
+          .col-lg-5.col-md-12
+            figure
+              img(src='@/assets/curso/tema1/imagen37.png')
 
-      .col-md.tarjeta.fondo-20.p-5
-        .row.justify-content-center.mb-4
-          .col-5
+        .row.justify-content-center.align-items-center
+          .col-lg-6.col-md-12.mb-4.mb-lg-0
+            h4 Ultrasonido
+            p El medidor internamente posee un transmisor que envía una onda de ultrasonido hacia la superficie a medir, para posteriormente a través de un receptor instalado en el mismo medidor sea recibida de vuelta la señal una vez haya rebotado en la superficie a medir. Electrónicamente el medidor calcula el tiempo de ida y regreso de la señal y con este valor determina la distancia a la cual se encuentra. Los sensores de ultrasonido trabajan por lo general a una frecuencia de entre 10 kHz y 100 kHz.
+        
+          .col-lg-5.col-md-12
             figure
-              img(src='@/assets/curso/tema1/figura10.svg')
-          
-        p La medición de nivel es importante cuando se requiere por ejemplo conocer la altura de la columna de agua en un embalse de generación de energía, la cantidad de combustible en un recipiente para un generador de electricidad que utiliza diesel u otro tipo de energético primario, y muchas otras aplicaciones industriales donde conocer esta variable es determinante para los procesos productivos.
+              img(src='@/assets/curso/tema1/imagen38.png')
+
+        .row.justify-content-center.align-items-center
+          .col-lg-6.col-md-12.mb-4.mb-lg-0
+            h4 Radar
+            p Los sensores de nivel de tipo radar utilizan el mismo principio de funcionamiento de los sensores por ultrasonido, pero emiten pulsos de ondas entre los 5,6 GHz y 26 GHz. Las ondas del radar son más rápidas y poseen mayor versatilidad al no verse afectada por las condiciones ambientales como el viento, el vapor, etc.
+        
+          .col-lg-5.col-md-12
+            figure
+              img(src='@/assets/curso/tema1/imagen39.png')
+
     .row.justify-content-center
       .col-lg-10.col-md-12(data-aos="fade-down-right")
         .tarjeta.color-primario.p-3.mb-5
@@ -599,7 +618,7 @@
             .col
               .row.justify-content-between.align-items-center
                 .col.mb-3.mb-sm-0.text-white
-                  p.text-bold.mb-0 Radar vs ultrasonido - cual es la diferencia entre los dos principios de medición? 
+                  p.text-bold.mb-0 En el siguiente video se muestra el funcionamiento básico de un medidor de nivel por ultrasonido y un medidor de nivel por radar:
                 .col-sm-auto
                   a.boton.color-acento-botones(:href="('https://www.youtube.com/watch?v=Rq_EPoKHmgo')" target="_blank")
                     span Ver video
@@ -632,7 +651,7 @@
                 .col
                   .row.justify-content-between.align-items-center
                     .col.mb-3.mb-sm-0.text-white
-                      p.text-bold.mb-0 Piranómetro
+                      p.text-bold.mb-0 En el siguiente video se muestra algunas características de los piranómetros: 
                     .col-sm-auto
                       a.boton.color-acento-botones(:href="('https://www.youtube.com/watch?v=0ud7h5_G-5U')" target="_blank")
                         span Ver video
@@ -670,7 +689,8 @@
           .col-lg-6.col-md-12.fondo-21.px-lg-2.py-lg-1.py-xl-5.px-xl-4.px-xxl-5.gridcolumna.mb-4(data-aos="fade-down-right")
             p.text-white.p-5.pt-lg-4.px-1.mb-0.pt-xxl-5 El instrumento empleado generalmente para medir la dirección del viento se denomina veleta, el cual consiste en un dispositivo instalado sobre un eje vertical y de giro libre, de tal modo que puede moverse cuando el viento cambia de dirección. En la mayoría de los instrumentos, el movimiento de la veleta está amortiguado para prevenir cambios demasiado rápidos o bruscos de la dirección del viento.
           .col-lg-6.col-md-12.gridcolumna(data-aos="fade-down-left")
-            .row.justify-content-center.redondearpuntas.fondo-blanco.sombras.py-4
+            p Algunas imágenes de veletas se muestran a continuación: 
+            .row.justify-content-center.redondearpuntas.fondo-blanco.sombras.pt-3
               .col-6
                 p.text-center Imagen real de una veleta.
                 img(src='@/assets/curso/tema1/imagen29.png')
@@ -694,10 +714,16 @@
             .row.justify-content-center.align-items-center
               .col-lg-6.col-md-12.mb-4.mb-lg-0
                 h4 A continuación, se describen las características más importantes para los instrumentos de medida:
-                p Rango de Medida: Corresponde al conjunto de valores comprendidos entre el valor mínimo y el valor máximo de medida del instrumento. Al valor mínimo de la variable se le conoce como LRV y al valor máximo de la variable se le conoce como URV.
-                p Alcance o Spam: Es la diferencia algebraica entre los valores del URV y el LRV.
-                p Error: Se define como la diferencia en porcentaje entre el valor medido por el instrumento y el valor real de la variable medida. Si se desea conocer el valor del error en una medida, se utiliza la siguiente fórmula:
-            
+                p Rango de Medida: corresponde al conjunto de valores comprendidos entre el valor mínimo y el valor máximo de medida del instrumento. Al valor mínimo de la variable se le conoce como LRV y al valor máximo de la variable se le conoce como URV.
+                p Alcance o <em>spam</em>: es la diferencia algebraica entre los valores del URV y el LRV.
+                p Error: se define como la diferencia en porcentaje entre el valor medido por el instrumento y el valor real de la variable medida. Si se desea conocer el valor del error en una medida, se utiliza la siguiente fórmula:
+                p.text-center.mb-0 % Error = 
+                  span.subrayado (VRI - VRV) 
+                  span X 100%
+                p.text-center VRV
+                p donde:
+                p.mb-0 VRI = Valor medidor con el instrumento
+                p.mb-0 VRV = Valor real de la variable
               .col-lg-5.col-md-12
                 figure
                   img(src='@/assets/curso/tema1/imagen32.png')
@@ -705,21 +731,22 @@
             .row.justify-content-center.align-items-center
               .col-lg-6.col-md-12.mb-4.mb-lg-0
                 h4 Otras características importantes son:
-                p Exactitud. Esta cantidad determina qué tan cerca se encuentra el valor medido por el instrumento del valor real de la variable a medir. Por lo general se relaciona con el concepto de error y en las hojas de especificaciones de los medidores se muestra el porcentaje de error con respecto al valor máximo de la variable URV.
-                p Incertidumbre en la medida: Es el valor obtenido cuando se realiza la comparación entre el valor medido por un instrumento de medida y otro instrumento con mayor o igual exactitud normalmente llamado patrón.
-                p Precisión: Indica el grado de repetibilidad del instrumento para obtener el mismo valor medido en varias ocasiones.
-                p Resolución: Corresponde al valor mínimo confiable que puede medir el instrumento. 
+                p Exactitud: esta cantidad determina qué tan cerca se encuentra el valor medido por el instrumento del valor real de la variable a medir. Por lo general se relaciona con el concepto de error y en las hojas de especificaciones de los medidores se muestra el porcentaje de error con respecto al valor máximo de la variable URV.
+                p Incertidumbre en la medida: es el valor obtenido cuando se realiza la comparación entre el valor medido por un instrumento de medida y otro instrumento con mayor o igual exactitud normalmente llamado patrón.
+                p Precisión: indica el grado de repetibilidad del instrumento para obtener el mismo valor medido en varias ocasiones.
+                p Resolución: corresponde al valor mínimo confiable que puede medir el instrumento. 
             
               .col-lg-5.col-md-12
                 figure
                   img(src='@/assets/curso/tema1/imagen33.png')
+    p.my-5 En el siguiente ejemplo se puede ver la aplicación práctica con un instrumento medidor de presión:
     separador
     #t_1_7.titulo-segundo.color-acento-botones(data-aos="fade-down")
       h2 1.7 Calibración de los instrumentos de medición
     p.mb-5(data-aos="fade-down-right") La calibración de los instrumentos de medición es de gran importancia, por esto se invita a navegar por la siguiente didáctica.
     .row
       .col-12.fondo-22.p-5(data-aos="fade-down-right")
-        h4.text-center Calibración de los instrumentos de medición.
+        h4.text-center Calibración de los instrumentos de medición
         .row.justify-content-center.p-5
           .col-lg-6.col-md-12(data-aos="fade-down-right")
             p En la práctica, el valor real de la variable a medir en ningún momento se va a obtener debido a que ningún instrumento de medición tiene la capacidad de medir con un error de cero. Siempre existirá un grado de incertidumbre que puede ser manejado y calculado con la información de las hojas de datos de cada instrumento. 
@@ -755,6 +782,56 @@
             img(src='@/assets/curso/tema1/figura14.svg')
           .col-lg-11.col-md-10.col-sm-9.col-9(data-aos="fade-down-left")
             p.p-4.fondo-blanco.redondearpuntas.sombras.mb-0 El servicio de calibración también incluye el ajuste (cuando es posible) o corrección de los errores de acuerdo con la manipulación de algunos elementos que tiene internamente el instrumento para tal fin.
+
+    .row.my-5.justify-content-center
+      .col-lg-6.col-md-12.fondo-1.px-5.pt-5.pb-4(data-aos="fade-down-right")
+        p.text-center A continuación, se muestran algunos equipos de calibración
+        .row.justify-content-center
+          .col-xl-10.col-md-12(data-aos="fade-down-left")
+            a.anexo(:href="obtenerLink('downloads/Teoria_Radiacion.pdf')" target="_blank")
+              .anexo__icono
+                img(src="@/assets/template/icono-pdf.svg")
+              .anexo__texto
+                span.text-bold Anexo. 
+                span Equipos de calibración
+
+    p El resultado del proceso de calibración es un certificado emitido por el laboratorio acreditado para tal fin, donde se muestran los puntos de trabajo del medidor analizado y los valores de la desviación medido.
+    p Los datos básicos que debe contener un certificado de calibración son los siguientes:
+
+    .tarjeta.tarjeta--gris.p-4
+      PasosB.color-acento-contenido
+        .row(titulo="")
+          .col-md-12.mb-4.mb-md-0
+            h2.text-center.my-5 Dato  1: Valor medido por el equipo patrón.
+
+        .row(titulo="")
+          .col-md-12.mb-4.mb-md-0
+            h2.text-center.my-5 Dato 2: Valor medido por el instrumento a calibrar.
+
+        .row(titulo="")
+          .col-md-12.mb-4.mb-md-0
+            h2.text-center.my-5 Dato 3: Diferencia entre el valor medido por el equipo patrón y el medido por el instrumento a calibrar.
+
+        .row(titulo="")
+          .col-md-12.mb-4.mb-md-0
+            h2.text-center.my-5 Dato  4: Especificación de exactitud.
+
+        .row(titulo="")
+          .col-md-12.mb-4.mb-md-0
+            h2.text-center.my-5 Dato5. Identificación del equipo patrón utilizado.
+
+    .row.my-5.justify-content-center
+      .col-lg-10.col-md-12.fondo-1.px-5.pt-5.pb-4(data-aos="fade-down-right")
+        p.text-center En el siguiente anexo se encuentra un ejemplo de un certificado de calibración para un medidor de temperatura: 
+        .row.justify-content-center
+          .col-xl-6.col-lg-10.col-md-12(data-aos="fade-down-left")
+            a.anexo(:href="obtenerLink('downloads/1_7_Ejemplo_Certificado_de_Calibracion.pdf')" target="_blank")
+              .anexo__icono
+                img(src="@/assets/template/icono-pdf.svg")
+              .anexo__texto
+                span.text-bold Anexo. 
+                span Ejemplo de certificado de calibración
+
 </template>
 
 <script>

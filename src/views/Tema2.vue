@@ -11,46 +11,13 @@
       SlyderA.my-5(tipo="b")
         .row.justify-content-center.align-items-center
           .col-lg-6.col-md-12.mb-4.mb-lg-0
-            h3 Potencial de los sistemas energéticos renovables.
-            p Actualmente existen varias tecnologías que permiten la obtención de energía final en forma de electricidad, calor y combustibles a partir de las Fuentes de Energía Renovable. A través de los años varias de estas tecnologías han madurado y se convirtieron en soluciones técnicas y comerciales para las necesidades energéticas de los países. En Colombia, se han implementado proyectos de generación con tecnologías solar fotovoltaica, solar térmica, también el uso del bagazo de caña como fuente primaria para efectos de cogeneración, y en el desarrollo de proyectos de generación de electricidad con energía eólica.
+            h3 Potencial de los sistemas energéticos renovables
+            p.mb-0 Actualmente existen varias tecnologías que permiten la obtención de energía final en forma de electricidad, calor y combustibles a partir de las 
+            p Fuentes de energía renovable: a través de los años varias de estas tecnologías han madurado y se convirtieron en soluciones técnicas y comerciales para las necesidades energéticas de los países. En Colombia, se han implementado proyectos de generación con tecnologías solar fotovoltaica, solar térmica, también el uso del bagazo de caña como fuente primaria para efectos de cogeneración, y en el desarrollo de proyectos de generación de electricidad con energía eólica.
         
           .col-lg-5.col-md-12
             figure
               img(src='@/assets/curso/tema2/imagen1.png')
-        .row.justify-content-center.align-items-center
-          .col-lg-6.col-md-12.mb-4.mb-lg-0
-            h3 Cabe resaltar:
-            p Que la información consignada en los Atlas sirve como referencia para analizar el potencial general del uso de cierta tecnología que utiliza como fuente primaria la energía renovable.
-            p Cuando se decide realizar un proyecto en particular, se deben realizar mediciones en sitio con instrumentos de medida con una duración en tiempos especificados por el proyecto. Adicionalmente se deben tener en cuenta de manera particular las condiciones del lugar de instalación mencionadas anteriormente.
-          .col-lg-5.col-md-12
-            figure
-              img(src='@/assets/curso/tema2/imagen5.png')
-
-        .row.justify-content-center.align-items-center
-          .col-lg-6.col-md-12.mb-4.mb-lg-0
-            h3 De manera general, la información consignada en los Atlas se compone de:
-            p Conjunto de mapas climatológicos con la información de la distribución promedio mensual y anual de las variables de interés.
-            ul.lista-ul
-              li 
-                i.fas.fa-check
-                | Aspectos teóricos y observaciones para la interpretación de los datos consignados en los mapas.
-              li
-                i.fas.fa-check
-                | Anexos con documentación de interés.
-
-          .col-lg-5.col-md-12
-            figure
-              img(src='@/assets/curso/tema2/imagen2.png')
-
-        .row.justify-content-center.align-items-center
-          .col-lg-6.col-md-12.mb-4.mb-lg-0
-            h3 Debido a lo anterior
-            p En Colombia se han elaborado diferentes documentos que recopilan toda la información requerida para la evaluación del potencial de diferentes fuentes de energía en las regiones del país. Estos documentos se denominan con el nombre “Atlas” y se encuentran publicados en las páginas web del Instituto de Hidrología, Meteorología y Estudios Ambientales - IDEAM y de la Unidad de Planeación Minero Energética-UPME.  A través de estos Atlas se facilita la identificación de regiones que resultan estratégicas por los potenciales recursos para la solución de necesidades energéticas de la población. 
-        
-          .col-lg-5.col-md-12
-            figure
-              img(src='@/assets/curso/tema2/imagen3.png')
-
         .row.justify-content-center.align-items-center
           .col-lg-6.col-md-12.mb-4.mb-lg-0
             h3 El potencial de generación para cada una de las tecnologías con fuentes renovables es diferente, ya que depende de las siguientes condiciones en el lugar de instalación:
@@ -83,12 +50,51 @@
           .col-lg-5.col-md-12
             figure
               img(src='@/assets/curso/tema2/imagen4.png')
+        .row.justify-content-center.align-items-center
+          .col-lg-6.col-md-12.mb-4.mb-lg-0
+            h3 Debido a lo anterior
+            p En Colombia se han elaborado diferentes documentos que recopilan toda la información requerida para la evaluación del potencial de diferentes fuentes de energía en las regiones del país. Estos documentos se denominan con el nombre “Atlas” y se encuentran publicados en las páginas web del Instituto de Hidrología, Meteorología y Estudios Ambientales - IDEAM y de la Unidad de Planeación Minero Energética-UPME.  A través de estos Atlas se facilita la identificación de regiones que resultan estratégicas por los potenciales recursos para la solución de necesidades energéticas de la población. 
+        
+          .col-lg-5.col-md-12
+            figure
+              img(src='@/assets/curso/tema2/imagen3.png')
+        .row.justify-content-center.align-items-center
+          .col-lg-6.col-md-12.mb-4.mb-lg-0
+            h3 De manera general, la información consignada en los Atlas se compone de:
+            p Conjunto de mapas climatológicos con la información de la distribución promedio mensual y anual de las variables de interés.
+            ul.lista-ul
+              li 
+                i.fas.fa-check
+                | Aspectos teóricos y observaciones para la interpretación de los datos consignados en los mapas.
+              li
+                i.fas.fa-check
+                | Anexos con documentación de interés.
+
+          .col-lg-5.col-md-12
+            figure
+              img(src='@/assets/curso/tema2/imagen2.png')
+        .row.justify-content-center.align-items-center
+          .col-lg-6.col-md-12.mb-4.mb-lg-0
+            h3 Cabe resaltar:
+            p Que la información consignada en los Atlas sirve como referencia para analizar el potencial general del uso de cierta tecnología que utiliza como fuente primaria la energía renovable.
+            p Cuando se decide realizar un proyecto en particular, se deben realizar mediciones en sitio con instrumentos de medida con una duración en tiempos especificados por el proyecto. Adicionalmente se deben tener en cuenta de manera particular las condiciones del lugar de instalación mencionadas anteriormente.
+          .col-lg-5.col-md-12
+            figure
+              img(src='@/assets/curso/tema2/imagen5.png')
+        .row.justify-content-center.align-items-center
+          .col-lg-6.col-md-12.mb-4.mb-lg-0
+            h3 Sin embargo,
+            p Cuando se decide realizar un proyecto en particular, se deben realizar mediciones en sitio con instrumentos de medida con una duración en tiempos especificados por el proyecto. Adicionalmente se deben tener en cuenta de manera particular las condiciones del lugar de instalación mencionadas anteriormente.
+
+          .col-lg-5.col-md-12
+            figure
+              img(src='@/assets/curso/tema2/imagen2.png')
     p.my-5(data-aos="fade-down-right") A continuación, se describe el potencial de generación en dos fuentes de energía renovable no convencional: energía solar y energía eólica.
     separador
     #t_2_1.titulo-segundo.color-acento-botones(data-aos="fade-down")
-      h2 2.1 Potencial Energético de la Energía solar
+      h2 2.1 Potencial energético de la energía solar
     p.mb-5(data-aos="fade-down-right") Revisar el potencial energético de la energía solar.
-    h3.mb-5(data-aos="fade-down-left") Potencial Energético de la Energía solar.
+    h3.mb-5(data-aos="fade-down-left") Potencial energético de la energía solar.
     p.mb-5(data-aos="fade-down-right") El aprovechamiento de la energía solar generalmente se da en dos aplicaciones: energía solar fotovoltaica y energía solar térmica. A través de la aplicación solar fotovoltaica se aprovecha la energía del sol para generar electricidad, y por medio de las aplicaciones solares térmicas es posible elevar la temperatura del agua u otros fluidos de tal forma que se pueda aprovechar esa temperatura en diferentes usos de la energía.
     .row.justify-content-center
       .col-lg-4.col-md-12.mb-4(data-aos="fade-down-right")
@@ -117,6 +123,7 @@
                   .anexo__texto
                     span.text-bold Anexo. 
                     span Teoría de radiación
+    p.mt-3.mb-5 Para la evaluación del potencial energético de la radiación solar, existen dos variables fundamentales:
     figure(data-aos="fade-down-right")
       .video
         iframe(width="560" height="315" src="https://www.youtube.com/embed/c-BIULucPEg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
@@ -166,7 +173,7 @@
     .row.justify-content-center
       .col-12.fondo-21.px-5.pt-5.pb-4(data-aos="fade-down-right")
         h4.colorfuente1 A través de los mapas: 
-        p.text-white Una vez se tenga descargado el Mapa nacional multianual de irradiación global horizontal medio diario anual, se debe ubicar las convenciones en dicho mapa donde aparecerá lo siguiente:
+        p.text-white Una vez se tenga descargado el mapa nacional multianual de irradiación global horizontal medio diario anual, se debe ubicar las convenciones en dicho mapa donde aparecerá lo siguiente:
         .row.justify-content-center
           .col-lg-8.col-md-10.col-sm-10.col-10.fondo-blanco.redondearpuntas.p-1
             img(src="@/assets/curso/tema2/imagen8.png")
@@ -189,7 +196,7 @@
         p.text-white Este último valor corresponde al valor promedio diario mensual. En la misma tabla aparecen unas convenciones de colores con unos rangos indicativos diferentes a los de los mapas, con el fin de identificar rápidamente dentro de la tabla cuáles con las horas en donde se tiene una cantidad mayor de irradiación global horizontal.
         .row.justify-content-center
           .col-lg-10.col-md-10.col-sm-10.col-10.fondo-blanco.redondearpuntas.p-1
-            img(src="@/assets/curso/tema2/imagen10.svg")
+            img(src="@/assets/curso/tema2/imagen10.png")
         .row.align-items-flex-end.mt-4
           .col-lg-9.col-md-7.col-sm-6.col-5
           .col-lg-3.col-md-5.col-sm-6.col-7
@@ -221,7 +228,7 @@
           li.otrocolor 
             i.fa-li.fa.fa-check
             span Meteonorm 
-            a.mb-4(:href="('(https://meteonorm.com/en/')" target="_blank")
+            a.mb-4(:href="('https://meteonorm.com/en/')" target="_blank")
               span.colorfuente (https://meteonorm.com/en/). 
               span Se debe pagar una suscripción.
           li.otrocolor 
@@ -250,16 +257,17 @@
             p.mb-0 Como se puede observar en la figura anterior, el valor de la irradiación global horizontal promedio anual diaria (en inglés <em>Global Horizontal Irradiation GHI</em>) es de 5,689 kWh/m2 día.
         separador
         #t_2_2.titulo-segundo.color-acento-botones(data-aos="fade-down")
-          h2 2.2 Potencial Energético de la Energía Eólica
+          h2 2.2 Potencial energético de la energía eólica
         p.mb-5 Explorar la siguiente didáctica y conocer el potencial energético de la energía eólica.
         .row.justify-content-center
           .col-lg-7.col-md-12(data-aos="fade-down-right")
-            h4 Potencial Energético de la Energía Eólica
+            h4 Potencial energético de la energía eólica
             p De acuerdo con el IDEAM, UPME (2006), dentro de las fuentes de energía renovable que se utilizan en gran escala para la generación de electricidad, se encuentra el uso del viento para mover aerogeneradores instalados de tal forma que se pueda optimizar la velocidad y la dirección del viento para obtener la mayor cantidad de energía disponible. Esta tecnología recibe el nombre de sistemas eólicos o energía eólica, porque aprovecha la energía cinética del viento para la producción de electricidad. 
           .col-lg-5.col-md-12(data-aos="fade-down-left")
             img(src='@/assets/curso/tema2/imagen11.png')
     .row.justify-content-center
       .col-12.fondo-1(data-aos="fade-down-right")
+        h4.mt-4 Los parámetros fundamentales
         p.my-5 En la determinación del potencial eólico de una zona están determinados por la siguiente ecuación:
         .row.justify-content-center
           .col-md-9.col-sm-11.col-11.fondo-blanco.redondearpuntas.sombras.p-5
@@ -275,12 +283,18 @@
       .col-lg-6.col-md-12.mb-4(data-aos="fade-down-right")
         img(src='@/assets/curso/tema2/imagen12.png')
       .col-lg-6.col-md-12(data-aos="fade-down-left")
-        p La densidad del aire es un factor determinante en las mediciones, porque es diferente para cada sitio y algunas veces solo para casos prácticos se puede asumir con un valor de 1 Kg/m3. Debido a esta relación, pequeñas variaciones en la velocidad del viento representan grandes cambios en el contenido de energía. 
-        p.fondo-19.p-4 En lugares donde los valores de la velocidad del viento son bajos, se obtienen menores valores de densidad de potencia, mientras que donde los valores promedio del viento son mayores, la densidad de potencia y por lo tanto la densidad de energía, crece de forma potencialmente al cubo de dicha velocidad.
-    p.mb-5(data-aos="fade-down-left") Por lo general, los vientos con intensidades iguales o superiores a 5 m/s equivalentes a (P/A) de 63 W/m2 proporcionan una buena alternativa para uso de energía en pequeños proyectos eólicos instalados cerca de superficie (entre 5 y 10 metros de altura). Sin embargo, para proyectos de gran envergadura como parques eólicos, se requiere hacer mediciones para alturas superiores, en donde se encuentran valores de velocidad del viento superiores, y en donde se puedan instalar aerogeneradores con alturas que permitan aprovechar al máximo las condiciones ambientales del lugar.
+        h4.mt-4 De acuerdo con IDEAM, UPME (2006), 
+        p La densidad del aire es un factor determinante en las mediciones, porque es diferente para cada sitio y algunas veces solo para casos prácticos se puede asumir con un valor de 1 Kg/m3. Debido a esta relación, pequeñas variaciones en la velocidad del viento representan grandes cambios en el contenido de energía.
+        .div.fondo-19.px-4.py-3
+          h4 Por ejemplo,
+          p Si en un sitio se miden 5 m/s como media de velocidad del viento y en otro cercano se miden 6 m/s, es decir una variación del 16% en los valores de la velocidad del viento, la variación de la densidad de potencia entre estos dos puntos a pesar de estar muy cercanos es del 58%. Debido a lo anterior, en lugares donde los valores de la velocidad del viento son bajos, se obtienen menores valores de densidad de potencia, mientras que donde los valores promedio del viento son mayores, la densidad de potencia y por lo tanto la densidad de energía crece de forma potencialmente al cubo de dicha velocidad.
+    p.my-5(data-aos="fade-down-left") Por lo general, los vientos con intensidades iguales o superiores a 5 m/s equivalentes a (P/A) de 63 W/m2 proporcionan una buena alternativa para uso de energía en pequeños proyectos eólicos instalados cerca de superficie (entre 5 y 10 metros de altura). Sin embargo, para proyectos de gran envergadura como parques eólicos, se requiere hacer mediciones para alturas superiores, en donde se encuentran valores de velocidad del viento superiores, y en donde se puedan instalar aerogeneradores con alturas que permitan aprovechar al máximo las condiciones ambientales del lugar.
+    h4 Contexto Nacional del Potencial Energético de la Energía Eólica.
+    p.mb-5 De manera similar al potencial energético solar, en Colombia se han realizado varios estudios donde se recopila la información de diferentes estaciones meteorológicas públicas y privadas con el fin de determinar los valores promedio para el uso en estudios de evaluación de potencial energético. El IDEAM es la entidad oficial encargada de hacer el seguimiento a la radiación y cuenta con la red más grande de estaciones y de mayor cobertura.
     .row.justify-content-center
       .col-lg-6.col-md-12.fondo-1.py-4.px-5.mb-4(data-aos="fade-down-right")
-        p.pt-5 En el departamento de la Guajira se concentran los mayores promedios de vientos alisios que recibe el país durante todo el año con velocidades promedio cercanas a los 9 m/s (a 80 m de altura). Con estos valores se han realizados estudios de prefactibilidad y de acuerdo con ellos se estima un potencial energético en la zona equivalente a 18 GW eléctricos.
+        h4.mt-4 De acuerdo con UPME (2015), 
+        p En el departamento de la Guajira se concentran los mayores promedios de vientos alisios que recibe el país durante todo el año con velocidades promedio cercanas a los 9 m/s (a 80 m de altura). Con estos valores se han realizados estudios de prefactibilidad y de acuerdo con ellos se estima un potencial energético en la zona equivalente a 18 GW eléctricos.
       .col-lg-6.col-md-12(data-aos="fade-down-left")
         img(src='@/assets/curso/tema2/imagen13.jpg')
     p.my-5(data-aos="fade-down-left") Para la determinación de la densidad de energía eólica en alguna zona específica del país, se tienen varias opciones dentro de las cuales se destacan las siguientes:
@@ -298,9 +312,17 @@
     .row.justify-content-center.fondo-25
       .col-12.p-4(data-aos="fade-down-right")
         p.mb-0 Existen donde formas para consultar la documentación del atlas. Una de ellas es utilizar la herramienta en linea desarrollada por el IDEAM accedienco al siguiente enlace: 
-          a.mb-4(:href="('http://atras.ideam.gov.co/visorAtlasVientos.html')" target="_blank")
-            span.colorfuente http://atras.ideam.gov.co/visorAtlasVientos.html 
+          a.mb-4(:href="('http://atlas.ideam.gov.co/visorAtlasVientos.html')" target="_blank")
+            span.colorfuente http://atlas.ideam.gov.co/visorAtlasVientos.html 
           span y descargando los mapas que alli reposan. En caso de que no esté disponible la página web de IDEAM por mantenimiento, se puede descargar el documento completo del siguiente enlace:
+            .row.justify-content-center.mt-4
+              .col-auto
+                a.anexo(:href="('downloads/2_1_3_MC_Atlas_Eolico_Colombia.pdf')" target="_blank")
+                  .anexo__icono
+                    img(src="@/assets/template/icono-pdf.svg")
+                  .anexo__texto
+                    span.text-bold Anexo.  
+                    span Documentación del atlas
     p.my-5(data-aos="fade-down-right") Para ambos casos, se puede obtener la siguiente información:
     .row.justify-content-center.fondo-1.p-4
       .col-lg-3.col-md-5.col-6.mb-4.mb-lg-0(data-aos="fade-down-right")
@@ -363,7 +385,7 @@
             i.fa-li.fa.fa-check
             span <em>Global Wind Atlas</em> 
               a.mb-4(:href="('https://globalwindatlas.info/')" target="_blank")
-              span.colorfuente (https://globalwindatlas.info/). 
+                span.colorfuente (https://globalwindatlas.info/). 
               span.mb-0 Es gratuita. Está diseñada también para calcular el potencial de generación con algunas torres eólicas. Provee información del viento para alturas de 10, 50, 100, 150 y 200 metros.
     .row.ampliar.px-5.fondo-26
       .col-12(data-aos="fade-down-left")
