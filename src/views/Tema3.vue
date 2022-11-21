@@ -286,6 +286,8 @@
 
       .col-lg-4.col-md-6.col-sm-7.col-8.mb-4.mb-lg-0.order-first.order-lg-last(data-aos="fade-down-right")
         img(src='@/assets/curso/tema3/figura5.svg')
+        img.mt-4(src='@/assets/curso/tema3/imagen16.jpg')
+        p.mt-3 Orientación de los paneles hacia el sur y el concepto gráfico del grado de inclinación.
     separador
     #t_3_4.titulo-segundo.color-acento-botones(data-aos="fade-down")
       h2 3.4 Ejemplo de dimensionamiento
@@ -488,7 +490,7 @@
       .col-xl-7.col-lg-12.fondo-34.p-4.mb-4.mb-xl-0(data-aos="fade-down-right")
         p Para la selección del regulador de carga se debe tener en cuenta que el voltaje de trabajo de dicho regulador sea el mismo del voltaje de diseño de la instalación, que para el ejemplo es de 12V. Adicionalmente se debe calcular la corriente de corto circuito que proviene de los paneles que se encuentra en la hoja de datos de cada panel solar que para nuestro caso es de 8,86 amperios, y como son 4 paneles solares se debe multiplicar por este valor. Es decir, se debe buscar en el mercado comercial un regulador que exceda con las siguientes características mínimas:
         p.mb-0 Voltaje = 12 V en corriente continua.
-        p Corriente Total = 8,86 amperios * 4 paneles = 35,44 amperios en dc.
+        p Corriente total = 8,86 amperios * 4 paneles = 35,44 amperios en dc.
       .col-xl-5.col-lg-6.col-md-7.col-sm-8.col-8(data-aos="fade-down-left")
         img(src='@/assets/curso/tema3/imagen14.png')
     //- titulo con figura

@@ -41,7 +41,7 @@
 
         .row.justify-content-center.align-items-center
           .col-lg-6.col-md-12.mb-4.mb-lg-0
-            p.text-bold Medición de Presión
+            p.text-bold Medición de presión
             p La presión se define como la división entre el valor de una fuerza aplicada y el área de la superficie donde dicha fuerza se aplica. En el Sistema Internacional (SI) la unidad normalizada para la presión es el Pascal (Pa) definido como la fuerza que ejerce 1 Newton por metro cuadrado [N/m2]. En la industria las unidades de presión que más se utilizan son el Bar y el Psi. 
             p En la vida cotidiana es común encontrar referencia a la presión cuando se requiere conocer si las llantas de un automóvil están infladas a la presión correcta que en promedio es de 32 Psi, también cuando se requiere conocer la presión a la que llega el suministro de agua potable a nuestros hogares. Es decir, la presión se puede medir en fluidos como líquidos y gases. 
             span.text-bold  El resultado de la medida de presión varía dependiendo de las características del lugar 

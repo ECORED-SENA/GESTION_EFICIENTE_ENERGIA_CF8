@@ -135,13 +135,13 @@ export default {
           {
             icono: 'far fa-file-alt',
             numero: '3.4',
-            titulo: 'Ejemplo de Dimensionamiento',
+            titulo: 'Ejemplo de dimensionamiento',
             hash: 't_3_4',
           },
           {
             icono: 'far fa-file-alt',
             numero: '3.5',
-            titulo: 'Diseño por Simulación',
+            titulo: 'Diseño por simulación',
             hash: 't_3_5',
           },
         ],
@@ -452,6 +452,12 @@ export default {
           'Centro Industrial del Diseño y la Manufactura - Regional Santander',
       },
       {
+        nombre: 'María Eugenia Mejía López',
+        cargo: 'Validación contenido',
+        centro:
+          'Centro Industrial del Diseño y la Manufactura - Regional Santander',
+      },
+      {
         nombre: 'Ludwyng Corzo García',
         cargo: 'Validación audiovisual',
         centro:
@@ -478,25 +484,4 @@ export default {
       },
     ],
   },
-  // creditosInicio: [
-  //   {
-  //     titulo: 'En alianza',
-  //     contenido: [
-  //       require('@/assets/template/logo-sena-naranja.svg'),
-  //       require('@/assets/template/mintic.jpg'),
-  //       require('@/assets/template/minsalud.jpg'),
-  //     ],
-  //   },
-  //   {
-  //     titulo: 'En compañía',
-  //     contenido: [
-  //       require('@/assets/template/presidencia.jpg'),
-  //       require('@/assets/template/ecopetrol.jpg'),
-  //     ],
-  //   },
-  //   {
-  //     titulo: 'Una iniciativa',
-  //     contenido: [require('@/assets/template/santander.jpg')],
-  //   },
-  // ],
 }
