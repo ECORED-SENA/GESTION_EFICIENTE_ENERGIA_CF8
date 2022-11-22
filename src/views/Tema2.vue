@@ -143,8 +143,8 @@
           .col-12.fondo-1.px-5.pt-5.pb-4
             span.text-bold Existen dos formas para consultar la documentación del atlas. 
             span Una de ellas es utilizar la herramienta en línea desarrollada por el IDEAM accediendo al siguiente enlace:  
-            a.mb-4(:href="('http://atlas.ideam.gov.co/visorAtlasRadiacion.html')" target="_blank")
-              span.colorlink http://atlas.ideam.gov.co/visorAtlasRadiacion.html 
+            a.mb-4(:href="('http://www.ideam.gov.co/web/tiempo-y-clima/atlas-de-colombia')" target="_blank")
+              span.colorlink http://www.ideam.gov.co/web/tiempo-y-clima/atlas-de-colombia 
             span y descargando los mapas y tablas que allí reposan. En caso de que no esté disponible la página web de IDEAM por mantenimiento, se puede descargar el documento completo del siguiente enlace: 
             .row.justify-content-center.mt-4
               .col-lg-10.col-md-12
@@ -312,8 +312,8 @@
     .row.justify-content-center.fondo-25
       .col-12.p-4(data-aos="fade-down-right")
         p.mb-0 Existen donde formas para consultar la documentación del atlas. Una de ellas es utilizar la herramienta en linea desarrollada por el IDEAM accedienco al siguiente enlace: 
-          a.mb-4(:href="('http://atlas.ideam.gov.co/visorAtlasVientos.html')" target="_blank")
-            span.colorfuente http://atlas.ideam.gov.co/visorAtlasVientos.html 
+          a.mb-4(:href="('http://www.ideam.gov.co/web/tiempo-y-clima/atlas-de-colombia')" target="_blank")
+            span.colorfuente http://www.ideam.gov.co/web/tiempo-y-clima/atlas-de-colombia
           span y descargando los mapas que alli reposan. En caso de que no esté disponible la página web de IDEAM por mantenimiento, se puede descargar el documento completo del siguiente enlace:
             .row.justify-content-center.mt-4
               .col-auto
