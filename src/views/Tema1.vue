@@ -512,7 +512,7 @@
         p.text-center En el siguiente video se muestra el funcionamiento de un medidor de nivel tipo flotador con cadena de resistencias <em>reed switch</em>:
         .row.justify-content-center
           .col-auto
-            a.anexo.mb-4.mb-lg-0(href="https://www.youtube.com/watch?v=ujPcgDLch1J" target="_blank")
+            a.anexo.mb-4.mb-lg-0(href="https://www.youtube.com/watch?v=ujPcgh1JDLc" target="_blank")
               .anexo__icono
                 img(src="@/assets/template/icono-link.svg")
               .anexo__texto
