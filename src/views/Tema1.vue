@@ -78,12 +78,12 @@
     #t_1_1.titulo-segundo.color-acento-botones(data-aos="fade-down-right")
       h2 1.1 Medición de presión
     //- titulo con figura
-    .row.align-items-center.correr-izq.mb-0(data-aos="fade-down-right")
-      .col-1.pad1
-        img(src='@/assets/curso/tema1/triangulo.svg')
-      .col-11
+    .row.align-items-center.mb-0.mt-5(data-aos="fade-down-right")
+      .col-sm-1.col-2
+        img.flecha(src='@/assets/curso/tema1/triangulo.svg')
+      .col-sm-11.col-10.correr-izq
         h4.mb-0.ps-0.ms-0 A. Medidores de presión tipo mecánico
-    p(data-aos="fade-down-right") Los medidores de presión de tipo mecánico se denominan de esa forma porque su principio de funcionamiento involucra la interacción entre piezas mecánicas y no involucra elementos eléctricos o electrónicos para la medida de presión.
+    p.mt-5(data-aos="fade-down-right") Los medidores de presión de tipo mecánico se denominan de esa forma porque su principio de funcionamiento involucra la interacción entre piezas mecánicas y no involucra elementos eléctricos o electrónicos para la medida de presión.
     .row.fondo-2.ampliar.px-5
       .col-12.fondo-blanco.redondearpuntas.sombras.p-4(data-aos="fade-down-right")
         p.text-center.mb-5 Dentro de los medidores de presión de tipo mecánico se encuentran tres tipos dependiendo de la tecnología usada:
@@ -140,8 +140,8 @@
                       a.boton.color-acento-botones(:href="('https://www.youtube.com/watch?v=4dXwxFJPTg8')" target="_blank")
                         span Ver video
                         i.fas.fa-link          
-      p.my-5(data-aos="fade-down-right") A continuación, se muestran algunas características de los medidores de presión de tipo Bourdon: 
-      .row.justify-content-center.fondo-blanco.redondearpuntas.sombras.p-4.my-5
+      p.mt-5(data-aos="fade-down-right") A continuación, se muestran algunas características de los medidores de presión de tipo Bourdon: 
+      .row.justify-content-center.fondo-blanco.redondearpuntas.sombras.p-4.mt-4.mb-5
         .col-lg-3.col-md-6.col-sm-12.mb-4(data-aos="fade-down-right")
           .row.justify-content-center.align-items-center
             .col-12(data-aos="fade-down-right")
@@ -172,12 +172,12 @@
             span.colorfuente https://www.bloginstrumentacion.com/instrumentacion/construccin-funcionamiento-de-manmetros-mecnicos/
 
       //- titulo con figura
-      .row.align-items-center.correr-izq.mb-0(data-aos="fade-down-right")
-        .col-1.pad1
-          img(src='@/assets/curso/tema1/triangulo.svg')
-        .col-11
+      .row.align-items-center.mb-0.mt-5(data-aos="fade-down-right")
+        .col-sm-1.col-2
+          img.flecha(src='@/assets/curso/tema1/triangulo.svg')
+        .col-sm-11.col-10.correr-izq
           h4.mb-0.ps-0.ms-0 B. Medidores de presión de tipo electrónico
-    .row.fondo-6.ampliar.px-5
+    .row.fondo-6.ampliar.px-5.mt-5
       .col-12
         p(data-aos="fade-down-right") Los medidores de presión de tipo electrónico poseen componentes capaces de convertir una señal mecánica en una señal eléctrica que se puede transportar a través de cables o conductores eléctricos hacia un equipo electrónico que pueda interpretar esa señal, convertirla en un valor numérico y mostrarla a través de una pantalla digital. 
         p.mb-5(data-aos="fade-down-right") Los principios de medición o sensores más usados para los instrumentos de presión son los siguientes:
@@ -189,14 +189,14 @@
         .div.fondo-7.text-center.px-4.py-5.mb-3.redondearpuntas
           h4 Sensores Piezoresistivos
           p.mb-0 El funcionamiento es similar al de los sensores resistivos, pero se diferencia en el uso de materiales semiconductores para la fabricación de la membrana.
-        .div.fondo-7.text-center.px-4.py-5.redondearpuntas
+        .div.fondo-7.text-center.px-4.py-5.redondearpuntas.mb-4
           h4 Sensores capacitivos
           p.mb-0 Utiliza una membrana con dos capas metálicas que conforman un condensador. El valor de la capacitancia del condensador varía en función de la deformación de las membranas.
       .col-lg-7.col-md-12(data-aos="fade-down-left")
         .div.fondo-blanco.redondearpuntas.sombras.p-4
           p.text-center.text-bold Esquema de componentes del medidor de presión tipo Bourdon.
           img(src='@/assets/curso/tema1/imagen7.svg')
-          p.p-4.fondo-5.mb-0.desbordamiento.mt-5 Nota. WIKA. (2021). ¿Cómo funcionan un transmisor de presión?. Recuperado el 10 de septiembre de 2021, de 
+          p.p-4.fondo-35.mb-0.desbordamiento.mt-5 Nota. WIKA. (2021). ¿Cómo funcionan un transmisor de presión?. Recuperado el 10 de septiembre de 2021, de 
             a.mb-4(:href="('https://www.bloginstrumentacion.com/productos/como-funciona-un-transmisor-de-presion/')" target="_blank")
               span.colorfuente https://www.bloginstrumentacion.com/productos/como-funciona-un-transmisor-de-presion/
     separador
@@ -206,15 +206,15 @@
     .row.justify-content-center
       .col-lg-10.col-md-12.fondo-8.p-5(data-aos="fade-down-right")
         .row.justify-content-center.align-items-center
-          .col-lg-2.col-md-12(data-aos="fade-down-right")
+          .col-lg-2.col-md-5.col-8(data-aos="fade-down-right")
             img(src='@/assets/curso/tema1/imagen8.png')
           .col-lg-9.col-md-12(data-aos="fade-down-left")
             p La temperatura es tal vez la variable física más reconocida en la vida cotidiana. Por ejemplo, cuando una persona está enferma normalmente se mide la temperatura corporal a través de un termómetro para saber si está dentro del rango normal para los seres humanos. También al interior de los vehículos existe un indicador de temperatura del motor y de la temperatura del exterior.
-          .col-lg-2.col-md-12.my-3(data-aos="fade-down-right")
+          .col-lg-2.col-md-5.col-8.my-3(data-aos="fade-down-right")
             img(src='@/assets/curso/tema1/imagen9.png')
           .col-lg-9.col-md-12.my-3(data-aos="fade-down-left")
             p En la industria, la medición de esta variable es fundamental y actualmente existen cantidad de aplicaciones con rangos de temperaturas y condiciones de proceso diferentes en donde los instrumentos de medición de esta variable están presentes.
-          .col-lg-2.col-md-12(data-aos="fade-down-right")
+          .col-lg-2.col-md-5.col-8(data-aos="fade-down-right")
             img(src='@/assets/curso/tema1/imagen10.png')
           .col-lg-9.col-md-12(data-aos="fade-down-left")
             p Para las aplicaciones industriales y comerciales, normalmente se utilizan tres escalas para la medición de temperatura: Celsius (C), Fahrenheit (F) y Kelvin (K).
@@ -224,17 +224,17 @@
     .row.fondo-11.ampliar.px-5
       .col-12
         //- titulo con figura
-        .row.align-items-center.correr-izq.mb-0.mt-5(data-aos="fade-down-right")
-          .col-1.pad1
-            img(src='@/assets/curso/tema1/triangulo.svg')
-          .col-11
+        .row.align-items-center.mb-0.mt-5(data-aos="fade-down-right")
+          .col-sm-1.col-2
+            img.flecha(src='@/assets/curso/tema1/triangulo.svg')
+          .col-sm-11.col-10.correr-izq
             h4.mb-0.ps-0.ms-0 A. Termómetros de vidrio
-        .row.justify-content-center
+        .row.justify-content-center.mt-5
           .col-lg-6.col-md-12.pb-0(data-aos="fade-down-right")
             p.fondo-9.p-5 Este instrumento se compone de un depósito fabricado en vidrio que contiene en su interior un elemento que al ser expuesto al calor se expande y sube al interior del depósito. Debido a la fragilidad de sus materiales y a la dificultad de lectura en condiciones ambientales industriales, este tipo de termómetros se utilizan normalmente en laboratorios con ambientes controlados. El elemento usado al interior del depósito de vidrio varía dependiendo del rango de medición del proceso que se desea medir. 
           .col-lg-6.col-md-12.fondo-12.p-3(data-aos="fade-down-left")
             P.mb-0 En la siguiente tabla se muestran los elementos más usados para los termómetros de vidrio: 
-            .tabla-a.color-acento-botones.text-center
+            .tabla-a.color-acento-botones.text-center.mt-3
               table
                 thead
                   tr.fondo-3
@@ -279,12 +279,12 @@
                 p.text-center Termómetro bimetálico con conexión a proceso. Fabricante WIKA.
                 img(src='@/assets/curso/tema1/imagen14.jpg')
     //- titulo con figura
-    .row.align-items-center.correr-izq.mb-0.my-5(data-aos="fade-down-right")
-      .col-1.pad1
-        img(src='@/assets/curso/tema1/triangulo.svg')
-      .col-11
+    .row.align-items-center.mb-0.mt-5(data-aos="fade-down-right")
+      .col-sm-1.col-2
+        img.flecha(src='@/assets/curso/tema1/triangulo.svg')
+      .col-sm-11.col-10.correr-izq
         h4.mb-0.ps-0.ms-0 B. Termómetros de principio resistivo (termorresistencias)
-    p(data-aos="fade-down-right") Estos instrumentos de medición de temperatura aprovechan el principio de variación de la resistencia de los elementos cuando son expuestos a cambios en la temperatura. El elemento consiste generalmente de un arrollamiento de un conductor muy fino protegido por un material aislante como la cerámica o el vidrio. Este tipo de sensores o sondas también son llamados RTD por su acrónimo en inglés detector de temperatura de resistencia. Los materiales que se usan normalmente en los sensores de temperatura son el platino y el níquel. La sonda o sensor más utilizado en la industria se denomina Pt-100 y es llamado así porque está fabricado con platino y su característica principal es que el valor de su resistencia eléctrica es de 100 ohmios cuando se somete a una temperatura de 0 °C. 
+    p.mt-5(data-aos="fade-down-right") Estos instrumentos de medición de temperatura aprovechan el principio de variación de la resistencia de los elementos cuando son expuestos a cambios en la temperatura. El elemento consiste generalmente de un arrollamiento de un conductor muy fino protegido por un material aislante como la cerámica o el vidrio. Este tipo de sensores o sondas también son llamados RTD por su acrónimo en inglés detector de temperatura de resistencia. Los materiales que se usan normalmente en los sensores de temperatura son el platino y el níquel. La sonda o sensor más utilizado en la industria se denomina Pt-100 y es llamado así porque está fabricado con platino y su característica principal es que el valor de su resistencia eléctrica es de 100 ohmios cuando se somete a una temperatura de 0 °C. 
     .row.justify-content-center.my-5
       .col-lg-5.col-md-12.mb-4(data-aos="fade-down-right")
         img(src='@/assets/curso/tema1/figura2.svg')
@@ -351,12 +351,12 @@
                 td.sinborde 1,56
                 td.sinborde - 200 a + 120
                 td.sinborde.sinbordeder 0,1
-      //- titulo con figura
-      .row.align-items-center.correr-izq.mb-0.mt-5(data-aos="fade-down-right")
-        .col-1.pad1
-          img(src='@/assets/curso/tema1/triangulo.svg')
-        .col-11
-          h4.mb-0.ps-0.ms-0 C. Termopares
+    //- titulo con figura
+    .row.align-items-center.mb-0.mt-5(data-aos="fade-down-right")
+      .col-sm-1.col-2
+        img.flecha(src='@/assets/curso/tema1/triangulo.svg')
+      .col-sm-11.col-10.correr-izq
+        h4.mb-0.ps-0.ms-0 C. Termopares
     p.my-5(data-aos="fade-down-left") Este tipo de instrumentos de medición de temperatura basan su funcionamiento en el principio del efecto <em>Seebeck</em> por medio del cual se demostró que cuando se tienen dos hilos (normalmente en forma de alambre) de metales diferentes unidos en un solo extremo, y dicha unión se calienta o se enfría, se produce un voltaje que se puede correlacionar con el valor real de la temperatura. A diferencia de los termómetros bimetálicos, los termopares no están laminados entre sí, sino que se unen en un extremo con un proceso de soldadura. Existen diferentes tipos de termopar los cuales están clasificados por una letra y se diferencian en los tipo de metales utilizados y el rango de temperatura en que pueden ser usados. La selección del tipo de termopar a utilizar dependerá de las condiciones ambientales del proceso a medir. 
     .row.justify-content-center
       .col-lg-6.col-md-12.fondo-12.p-4.mb-4(data-aos="fade-down-right")
@@ -419,10 +419,10 @@
                 p.text-centermb-4 Ejemplos de termopar expuesto con diferente tipo de aislamiento de conductor
                 img(src="@/assets/curso/tema1/figura8.svg")
           //- titulo con figura
-          .row.align-items-center.correr-izq.mb-0.mt-5(data-aos="fade-down-right")
-            .col-1.pad1
-              img(src='@/assets/curso/tema1/triangulo.svg')
-            .col-11
+          .row.align-items-center.mb-0.mt-5(data-aos="fade-down-right")
+            .col-sm-1.col-2
+              img.flecha(src='@/assets/curso/tema1/triangulo.svg')
+            .col-sm-11.col-10.correr-izq
               h4.mb-0.ps-0.ms-0 D. Termómetros por radiación infrarroja
     .row.justify-content-center.my-5
       .col-lg-6.col-md-12.mb-4(data-aos="fade-down-right")
@@ -465,12 +465,12 @@
           .col-lg-5.col-md-12
             figure
               img(src='@/assets/curso/tema1/imagen17.png')
-      p.my-5 A continuación, se mencionan algunas de las tecnologías más utilizadas en la medición de nivel.
+    p.my-5 A continuación, se mencionan algunas de las tecnologías más utilizadas en la medición de nivel.
     //- titulo con figura
-    .row.align-items-center.correr-izq.mb-0.mt-5(data-aos="fade-down-right")
-      .col-1.pad1
-        img(src='@/assets/curso/tema1/triangulo.svg')
-      .col-11
+    .row.align-items-center.mb-0.mt-5(data-aos="fade-down-right")
+      .col-sm-1.col-2
+        img.flecha(src='@/assets/curso/tema1/triangulo.svg')
+      .col-sm-11.col-10.correr-izq
         h4.mb-0.ps-0.ms-0  A. Medición continua de nivel con instrumentos tipo flotador
     p.my-5(data-aos="fade-down-left") Complementar la información de la didáctica de medición de nivel, conociendo diferentes instrumentos de medición.
     .row.justify-content-center.mb-5
@@ -508,20 +508,23 @@
               .col-lg-8.col-md-12.mb-0.py-4(data-aos="fade-down-leftt")
                 p.p-3 Están acoplados a unas resistencias y a través de un circuito electrónico se detecta el valor de la resistencia para conocer el valor del nivel del líquido a medir.
     .row.justify-content-center.align-items-center
-      .col-12.fondo-19.redondearpuntas.p-4(data-aos="fade-down-left")
-        p.text-center En el siguiente video se muestra el funcionamiento de un medidor de nivel tipo flotador con cadena de resistencias <em>reed switch</em>:
-        .row.justify-content-center
-          .col-auto
-            a.anexo.mb-4.mb-lg-0(href="https://www.youtube.com/watch?v=ujPcgh1JDLc" target="_blank")
-              .anexo__icono
-                img(src="@/assets/template/icono-link.svg")
-              .anexo__texto
-                p.colorfuente.fuente14.text-bold WIKA - Medición de nivel con sensor de flotador de cadena <em>Reed</em>.
+      .col-12.fondo-19.redondearpuntas.p-4
+        .row.justify-content-center.align-items-center
+          .col-lg-4.col-md-12(data-aos="fade-down-right")
+            img(src='@/assets/curso/tema1/imagen40.svg')
+          .col-lg-7.col-md-12(data-aos="fade-down-left")
+            p En el siguiente video se muestra el funcionamiento de un medidor de nivel tipo flotador con cadena de resistencias <i>reed switch</i>: 
+            .col-lg-10.col-md-12
+              a.anexo.mb-4.mb-lg-0(href="https://www.youtube.com/watch?v=ujPcgh1JDLc" target="_blank")
+                .anexo__icono
+                  img(src="@/assets/template/icono-link.svg")
+                .anexo__texto
+                  p.colorfuente.fuente14.text-bold WIKA - Medición de nivel con sensor de flotador de cadena <em>Reed</em>.
     //- titulo con figura
-    .row.align-items-center.correr-izq.mb-0.mt-5(data-aos="fade-down-right")
-      .col-1.pad1
-        img(src='@/assets/curso/tema1/triangulo.svg')
-      .col-11
+    .row.align-items-center.mb-0.mt-5(data-aos="fade-down-right")
+      .col-sm-1.col-2
+        img.flecha(src='@/assets/curso/tema1/triangulo.svg')
+      .col-sm-11.col-10.correr-izq
         h4.mb-0.ps-0.ms-0 B. Medición continua de nivel con indicadores tipo mirilla
     p.my-5(data-aos="fade-down-left") Este tipo de instrumentos permiten visualizar en sitio el valor del nivel del fluido al interior de un recipiente. Se basa en el principio físico de los vasos comunicantes en donde si el líquido está en reposo, alcanza el mismo nivel si se tiene uno o varios recipientes interconectados por su parte inferior. Por lo general para este tipo de medida se cuenta con un recipiente exterior y de menor tamaño instalado en paralelo al recipiente a medir y se encuentra interconectado por la parte inferior y exterior del mismo. A medida que el nivel del líquido sube y baja al interior del recipiente principal, esto se ve reflejado en el medidor exterior. Es importante que el fluido a medir esté libre de sólidos e impurezas para que se pueda obtener una medida confiable.
     .row.justify-content-center.align-items-center
@@ -538,10 +541,10 @@
                 .anexo__texto
                   p.colorfuente.fuente14.text-bold WIKA - Indicador de nivel con mirilla.
     //- titulo con figura
-    .row.align-items-center.correr-izq.mb-0.mt-5(data-aos="fade-down-right")
-      .col-1.pad1
-        img(src='@/assets/curso/tema1/triangulo.svg')
-      .col-11
+    .row.align-items-center.mb-0.mt-5(data-aos="fade-down-right")
+      .col-sm-1.col-2
+        img.flecha(src='@/assets/curso/tema1/triangulo.svg')
+      .col-sm-11.col-10.correr-izq
         h4.mb-0.ps-0.ms-0 C. Medición continua de nivel por presión hidrostática
     p.my-5(data-aos="fade-down-right") En muchas aplicaciones para la medición de nivel en líquidos, se utilizan medidores de presión aprovechando el principio físico de la presión hidrostática en donde existe una relación entre la altura de la columna del fluido (para cualquier valor de densidad) y la presión de este en el fondo de dicha columna, independientemente de la forma del recipiente. En otras palabras, es posible calcular la altura de un líquido dentro de un recipiente si se mide la presión generada en el fondo y se conoce su densidad.
     .row.justify-content-center
@@ -566,10 +569,10 @@
                 .anexo__texto
                   p.colorfuente.fuente14.text-bold WIKA - Medición hidrostática de nivel con sensor de presión hidrostática.
     //- titulo con figura
-    .row.align-items-center.correr-izq.mb-0.mt-5(data-aos="fade-down-right")
-      .col-1.pad1
-        img(src='@/assets/curso/tema1/triangulo.svg')
-      .col-11
+    .row.align-items-center.mb-0.mt-5(data-aos="fade-down-right")
+      .col-sm-1.col-2
+        img.flecha(src='@/assets/curso/tema1/triangulo.svg')
+      .col-sm-11.col-10.correr-izq
         h4.mb-0.ps-0.ms-0 D. Medición continua de nivel con instrumentos sin contacto.
     p.my-5(data-aos="fade-down-left") Explorar la siguiente didáctica, descubriendo cómo medir niveles con instrumentos sin contacto.     
     .tarjeta.fondo-1.p-4.mb-5(data-aos="fade-down-right")
@@ -661,12 +664,12 @@
       h2 1.5 Medición de velocidad y dirección del viento
     p.mb-5(data-aos="fade-down-right") Para el análisis de factibilidad para el uso de la energía eólica como energético primario en un lugar determinado, se debe tener como mínimo la capacidad de medir el valor de la velocidad y la dirección del viento. 
     //- titulo con figura
-    .row.align-items-center.correr-izq.mb-0.mt-5(data-aos="fade-down-right")
-      .col-1.pad1
-        img(src='@/assets/curso/tema1/triangulo.svg')
-      .col-11
+    .row.align-items-center.mb-0.mt-5(data-aos="fade-down-right")
+      .col-sm-1.col-2
+        img.flecha(src='@/assets/curso/tema1/triangulo.svg')
+      .col-sm-11.col-10.correr-izq
         h4.mb-0.ps-0.ms-0 A. Medición de velocidad
-    .row.fondo-2.ampliar.px-5
+    .row.fondo-2.ampliar.px-5.mt-5
       .col-12
         p.mt-5(data-aos="fade-down-right") El instrumento de medición utilizado para este fin se denomina anemómetro y el más utilizado es el anemómetro de rotación, que a subes puede ser de tipo cazoletas o de tipo hélice. Ambos funcionan con el principio en que la velocidad de rotación es proporcional a la velocidad del viento. Dicha rotación puede medirse contando mecánicamente el número de rotaciones por medio de un sensor óptico o a través de un pequeño motor eléctrico que actúa como generador. Los anemómetros de tres cazoletas semicónicas y semiesféricas son los más utilizados, y que permiten medir las componentes horizontales del viento.
         p.mb-5(data-aos="fade-down-right") Algunas imágenes de anemómetros se muestran a continuación: 
@@ -680,10 +683,10 @@
                 p.text-center Imagen real de un anemómetro de hélice.
                 img(src='@/assets/curso/tema1/imagen28.png')
         //- titulo con figura
-        .row.align-items-center.correr-izq.mb-0.mt-5(data-aos="fade-down-right")
-          .col-1.pad1
-            img(src='@/assets/curso/tema1/triangulo.svg')
-          .col-11
+        .row.align-items-center.mb-0.mt-5(data-aos="fade-down-right")
+          .col-sm-1.col-2
+            img.flecha(src='@/assets/curso/tema1/triangulo.svg')
+          .col-sm-11.col-10.correr-izq
             h4.mb-0.ps-0.ms-0 B. Medición de dirección del viento
         .row.justify-content-around.my-5
           .col-lg-6.col-md-12.fondo-21.px-lg-2.py-lg-1.py-xl-5.px-xl-4.px-xxl-5.gridcolumna.mb-4(data-aos="fade-down-right")

@@ -6,8 +6,6 @@
       .titulo-principal__numero
         span 3
       h1 Dimensionamiento de un sistema de generación con fuentes renovables
-    p(data-aos="fade-down-right") Explorar el dimensionamiento de un sistema de generación con fuentes renovables.
-    p(data-aos="fade-down-left") Conocer las tipologías y equipos relacionados con el potencial energético.
     span.text-bold(data-aos="fade-down-right") El dimensionamiento de un sistema de generación de energía con fuentes renovables 
     span(data-aos="fade-down-right") implica inicialmente la evaluación del potencial energético en el lugar de la instalación. Generalmente para el caso de la energía solar y la energía eólica, se utilizan los recursos mostrados en el anterior capítulo como los mapas y las bases de datos de información climatológica. 
     .row.justify-content-center.mt-4
@@ -16,7 +14,7 @@
       .col-lg-6.col-md-12(data-aos="fade-down-left")
         p.fondo-28.p-4 Una vez se ha detectado el potencial para la generación de energía con fuentes renovables se procede a realizar un análisis más detallado con visitas al sitio y si es posible se realizan mediciones locales, fotografías aéreas y satelitales, levantamientos topográficos, identificación de obstáculos, medios de transporte, entre otros. Una vez sea recopilada esta información, se realiza un proceso llamado diseño en el cual se obtiene generalmente como salida la cantidad de energía generada y los componentes necesarios para la instalación.
         p Las fases para el dimensionamiento de un sistema de generación con energía renovable varían en su complejidad y tiempo de desarrollo dependiendo de la magnitud de la energía que se pretende generar. 
-    p(data-aos="fade-down-right") En este sentido el proceso de dimensionamiento de energía eléctrica para un hogar residencial puede ser en algunos aspectos diferentes a un sistema de generación para el sistema interconectado nacional.
+    p.mt-5(data-aos="fade-down-right") En este sentido el proceso de dimensionamiento de energía eléctrica para un hogar residencial puede ser en algunos aspectos diferentes a un sistema de generación para el sistema interconectado nacional.
     p(data-aos="fade-down-right") En este capítulo se mostrarán de manera general los pasos para el dimensionamiento de uno de los sistemas de generación con energía renovable con mayor crecimiento en el país: los sistemas fotovoltaicos.
     separador
     #t_3_1.titulo-segundo.color-acento-botones(data-aos="fade-down")
@@ -36,10 +34,10 @@
       .col-xl-6.col-lg-12(data-aos="fade-down-left")
         img(src='@/assets/curso/tema3/imagen1.png')
     //- titulo con figura
-    .row.align-items-center.correr-izq.mb-0(data-aos="fade-down-right")
-      .col-1.pad1
-        img(src='@/assets/curso/tema1/triangulo.svg')
-      .col-11
+    .row.align-items-center.mb-0.mt-5(data-aos="fade-down-right")
+      .col-sm-1.col-2
+        img.flecha(src='@/assets/curso/tema1/triangulo.svg')
+      .col-sm-11.col-10.correr-izq
         span.text-bold.mb-0.ps-0.ms-0.fuente18 A. Sistemas autónomos: 
         span.fuente18 con el fin de completar la temática anterior, se invita a explorar la siguiente didáctica.
     SlyderF(data-aos="fade-down-right").mb-5(columnas="col-lg-6 col-xl-4")
@@ -95,10 +93,10 @@
                     span Ver video
                     i.fas.fa-link     
     //- titulo con figura
-    .row.align-items-center.correr-izq.mb-0(data-aos="fade-down-right")
-      .col-1.pad1
-        img(src='@/assets/curso/tema1/triangulo.svg')
-      .col-11
+    .row.align-items-center.mb-0.mt-5(data-aos="fade-down-right")
+      .col-sm-1.col-2
+        img.flecha(src='@/assets/curso/tema1/triangulo.svg')
+      .col-sm-11.col-10.correr-izq
         span.text-bold.mb-0.ps-0.ms-0.fuente18 B. Sistemas conectados a la red: 
         span.fuente18 revisa la información correspondiente a los sistemas conectados a la red.
     p.my-4(data-aos="fade-down-right") Los sistemas fotovoltaicos conectados a la red o a la línea eléctrica convencional, son un tipo de instalación en donde intervienen básicamente cuatro subsistemas:
@@ -106,12 +104,8 @@
       .col-12
         .row.justify-content-center.mb-4
           .col-lg-5.col-md-12(data-aos="fade-down-right")
-            span.text-bold Subsistema de generación: 
-            span compuesto por los paneles solares y los elementos de instalación y sujeción.
-            br
-            span.text-bold Inversor: 
-            span dispositivo electrónico que se encarga de transformar a corriente alterna el voltaje que en corriente continua se generan en los paneles, para alimentar las cargas a 110 VAC o 220 VAC y también inyectar la energía sobrante a la red convencional. Adicionalmente, el sistema inversor se encarga de gestionar el flujo de energía que viene desde los paneles y el flujo de energía que viene desde la red eléctrica convencional. 
-
+            p #[b Subsistema de generación:] compuesto por los paneles solares y los elementos de instalación y sujeción.
+            p #[b Inversor:] dispositivo electrónico que se encarga de transformar a corriente alterna el voltaje que en corriente continua se generan en los paneles, para alimentar las cargas a 110 VAC o 220 VAC y también inyectar la energía sobrante a la red convencional. Adicionalmente, el sistema inversor se encarga de gestionar el flujo de energía que viene desde los paneles y el flujo de energía que viene desde la red eléctrica convencional. 
           .col-lg-5.col-md-12.mb-4.mb-lg-0(data-aos="fade-down-left")
             img(src='@/assets/curso/tema3/imagen2.png')
           .col-lg-10.col-md-12(data-aos="fade-down-right")
@@ -120,7 +114,7 @@
             p En los momentos donde no haya servicio de electricidad de la red convencional, el sistema fotovoltaico se desconecta y no genera electricidad. Por lo tanto, no se debe considerar como un sistema de respaldo. Si se desea tener la posibilidad de funcionar como respaldo y a la vez conectado a la red, se debe instalar un sistema hibrido con baterías como se explicará más adelante.
             span.text-bold Subsistema de medición: 
             span se compone de un medidor de energía denominado como bidireccional. Internamente el medidor funciona como uno convencional, sin embargo, a diferencia de este, tiene la capacidad de medir y discriminar la cantidad de energía que viene de la red convencional y la cantidad de energía que viene desde el sistema fotovoltaico, con el fin de determinar al final del mes (o en cualquier momento) cuánta energía que viene de la red convencional debe facturar el comercializador de energía al usuario.
-          p.text-bold.text-center(data-aos="fade-down-right") En la operación de los sistemas conectados a la red, ocurren las siguientes situaciones durante todo un día normal de funcionamiento:
+          p.text-bold.text-center.mt-3(data-aos="fade-down-right") En la operación de los sistemas conectados a la red, ocurren las siguientes situaciones durante todo un día normal de funcionamiento:
         .row.justify-content-center
           .col-lg-5.col-md-12.mb-4.mb-lg-0(data-aos="fade-down-right")
             img(src='@/assets/curso/tema3/imagen3.png')
@@ -159,10 +153,10 @@
                     span Ver video
                     i.fas.fa-link 
     //- titulo con figura
-    .row.align-items-center.correr-izq.mb-0(data-aos="fade-down-right")
-      .col-1.pad1
-        img(src='@/assets/curso/tema1/triangulo.svg')
-      .col-11
+    .row.align-items-center.mb-0.mt-5(data-aos="fade-down-right")
+      .col-sm-1.col-2
+        img.flecha(src='@/assets/curso/tema1/triangulo.svg')
+      .col-sm-11.col-10.correr-izq
         h4.mb-0.ps-0.ms-0 C. Sistemas híbridos:
     p(data-aos="fade-down-right") Los sistemas fotovoltaicos híbridos son los que cuentan con dos o más fuentes energéticas. Un ejemplo de esto puede ser un sistema de generación de electricidad donde utiliza un sistema fotovoltaico, un sistema de generación eólica y un generador o planta eléctrica Diesel. Estas fuentes pueden trabajar simultáneamente o servir de respaldo en caso de fallo de la fuente principal. Este tipo de sistemas se utiliza en su mayoría para las torres de telecomunicaciones que están instaladas en montaña y sitios alejados y de difícil acceso, por lo tanto, se requiere de un grado de confiabilidad alta para su funcionamiento. Una de las características importantes de estos sistemas es que se pueden complementar con sistemas de baterías que pueden funcionar de forma aislada sin importar si existe o no una fuente de sincronismo.
     separador
@@ -176,10 +170,10 @@
     .row.ampliar.px-5.fondo-31
       .col-12
         //- titulo con figura
-        .row.align-items-center.correr-izq.mb-0(data-aos="fade-down-right")
-          .col-1.pad1
-            img(src='@/assets/curso/tema1/triangulo.svg')
-          .col-11
+        .row.align-items-center.mb-0.mt-5(data-aos="fade-down-right")
+          .col-sm-1.col-2
+            img.flecha(src='@/assets/curso/tema1/triangulo.svg')
+          .col-sm-11.col-10.correr-izq
             h4.mb-0.ps-0.ms-0 A. Demanda calculada: 
         p(data-aos="fade-down-right") Se denomina calculada porque resulta del cálculo del consumo de electricidad para cada uno de los equipos eléctricos descritos en el cuadro de cargas del lugar. La energía eléctrica se obtiene de la multiplicación de la potencia en vatios (W) de cada equipo por las horas al día de funcionamiento, obteniendo el valor en vatios-hora (Wh) que posteriormente se pueden convertir en unidades de kilovatio-hora (kWh).
         .row.justify-content-center.mt-5
@@ -234,10 +228,10 @@
                     td.text-center 6,8
             p.mb-4 De lo anterior se concluye que el consumo diario para este caso es de 6,8 kWh-día, y asumiendo que se consume lo mismo durante los treinta (30) días del mes, el consumo mensual es de 204 kWh-mes.
         //- titulo con figura
-        .row.align-items-center.correr-izq.mt-5(data-aos="fade-down-right")
-          .col-1.pad1
-            img(src='@/assets/curso/tema1/triangulo.svg')
-          .col-11
+        .row.align-items-center.mb-0.mt-5(data-aos="fade-down-right")
+          .col-sm-1.col-2
+            img.flecha(src='@/assets/curso/tema1/triangulo.svg')
+          .col-sm-11.col-10.correr-izq
             h4.mb-0.ps-0.ms-0 B. Demanda medida:
         p.my-4(data-aos="fade-down-right") El método de la demanda calculada es utilizado normalmente en aplicaciones muy sencillas. En aplicaciones más complejas donde la elaboración de un cuadro de cargas y un cuadro de cálculo resulta compleja de obtener debido a la gran cantidad de equipos conectados en las instalaciones del usuario interesado en instalar un sistema fotovoltaico, se prefiere utilizar medidores de energía que tengan la capacidad de medir y registrar en una memoria interna los valores de energía eléctrica en cada minuto u hora del día. Normalmente estos medidores se instalan en la acometida eléctrica de entrada y la instalación debe ser lo suficientemente segura para garantizar la seguridad de las personas y de los equipos instalados. Existen medidores con diferentes tecnologías desde los más avanzados llamados analizadores de red hasta los más sencillos medidores monofásicos.
         p En las siguientes imágenes se muestran algunos medidores y la visualización de la curva de consumo energético que se obtiene como resultado: 
@@ -409,10 +403,10 @@
                 p.text-center.mb-0 HSP =  (Irradiación global horizontal diaria)/(1000 W/m2)=3500/1000=3,5 horas
                 p.text-center Es elección del diseñador escoger la fuente de información. Se recomienda para diseños reales, hacer uso de las bases de datos para obtener valores más confiables.        
     //- titulo con figura
-    .row.align-items-center.correr-izq.mt-5(data-aos="fade-down-right")
-      .col-1.pad1
-        img(src='@/assets/curso/tema1/triangulo.svg')
-      .col-11
+    .row.align-items-center.mb-0.mt-5(data-aos="fade-down-right")
+      .col-sm-1.col-2
+        img.flecha(src='@/assets/curso/tema1/triangulo.svg')
+      .col-sm-11.col-10.correr-izq
         h4.mb-0.ps-0.ms-0 Cálculo del número de paneles solares y la potencia pico a instalar
     p.mb-5(data-aos="fade-down-right") Para el cálculo de la cantidad de paneles solares y la potencia pico a instalar, se debe seleccionar primero el panel solar a utilizar que se encuentre disponible en el mercado y que se adapte a las condiciones requeridas por el lugar de instalación. Existen varias potencias nominales que se pueden seleccionar. Para este caso en particular, se seleccionó el panel solar con Potencia pico de 300 W. La fórmula para calcular la cantidad total de paneles solares (Np) requeridos es la siguiente:
     .row.justify-content-center
@@ -423,10 +417,10 @@
         p.text-center.mb-0 El valor de la potencia pico del sistema completo se calcula multiplicando el número de paneles por la potencia pico de cada panel.
         p.text-center Potencia_(pico del sistema)=Np * Potencia individual del panel seleccionado = 4*300W = 1200 W_pico
     //- titulo con figura
-    .row.align-items-center.correr-izq.mt-5(data-aos="fade-down-right")
-      .col-1.pad1
-        img(src='@/assets/curso/tema1/triangulo.svg')
-      .col-11
+    .row.align-items-center.mb-0.mt-5(data-aos="fade-down-right")
+      .col-sm-1.col-2
+        img.flecha(src='@/assets/curso/tema1/triangulo.svg')
+      .col-sm-11.col-10.correr-izq
         h4.mb-0.ps-0.ms-0 Diseño del sistema de acumulación
     p.my-4(data-aos="fade-down-right") El sistema de acumulación es una de las partes más importantes para el diseño, ya que se compone de baterías que soportan el consumo de energía en horas de la noche y madrugada donde no existe o la radiación solar es muy baja. Para evaluar el tamaño del sistema de acumulación, es necesario definir para el diseño las siguientes variables:
     .tarjeta.fondo-1.p-4.mb-5(data-aos="fade-down-right")
@@ -481,10 +475,10 @@
             figure
               img(src='@/assets/curso/tema3/imagen13.png')
     //- titulo con figura
-    .row.align-items-center.correr-izq.mt-5(data-aos="fade-down-right")
-      .col-1.pad1
-        img(src='@/assets/curso/tema1/triangulo.svg')
-      .col-11
+    .row.align-items-center.mb-0.mt-5(data-aos="fade-down-right")
+      .col-sm-1.col-2
+        img.flecha(src='@/assets/curso/tema1/triangulo.svg')
+      .col-sm-11.col-10.correr-izq
         h4.mb-0.ps-0.ms-0 Selección del regulador de carga
     .row.justify-content-center.my-5
       .col-xl-7.col-lg-12.fondo-34.p-4.mb-4.mb-xl-0(data-aos="fade-down-right")
@@ -494,10 +488,10 @@
       .col-xl-5.col-lg-6.col-md-7.col-sm-8.col-8(data-aos="fade-down-left")
         img(src='@/assets/curso/tema3/imagen14.png')
     //- titulo con figura
-    .row.align-items-center.correr-izq.mt-5(data-aos="fade-down-right")
-      .col-1.pad1
-        img(src='@/assets/curso/tema1/triangulo.svg')
-      .col-11
+    .row.align-items-center.mb-0.mt-5(data-aos="fade-down-right")
+      .col-sm-1.col-2
+        img.flecha(src='@/assets/curso/tema1/triangulo.svg')
+      .col-sm-11.col-10.correr-izq
         h4.mb-0.ps-0.ms-0 Selección del inversor requerido
         p Explorar cómo seleccionar el inversor requerido.
         p.mb-5 En el mercado existe gran cantidad de inversores con diferentes tecnologías y eficiencias. El primer parámetro que se debe tener en cuenta para la selección del inversor es que su voltaje de entrada en corriente continua debe ser el mismo del sistema diseñado, que en nuestro caso es de 12 Vdc. Otro parámetro a tener en cuenta es el voltaje de salida en corriente alterna requerido para alimentar los equipos eléctricos de la vivienda o locación. 

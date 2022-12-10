@@ -93,8 +93,6 @@
     separador
     #t_2_1.titulo-segundo.color-acento-botones(data-aos="fade-down")
       h2 2.1 Potencial energético de la energía solar
-    p.mb-5(data-aos="fade-down-right") Revisar el potencial energético de la energía solar.
-    h3.mb-5(data-aos="fade-down-left") Potencial energético de la energía solar.
     p.mb-5(data-aos="fade-down-right") El aprovechamiento de la energía solar generalmente se da en dos aplicaciones: energía solar fotovoltaica y energía solar térmica. A través de la aplicación solar fotovoltaica se aprovecha la energía del sol para generar electricidad, y por medio de las aplicaciones solares térmicas es posible elevar la temperatura del agua u otros fluidos de tal forma que se pueda aprovechar esa temperatura en diferentes usos de la energía.
     .row.justify-content-center
       .col-lg-4.col-md-12.mb-4(data-aos="fade-down-right")
@@ -129,10 +127,10 @@
         iframe(width="560" height="315" src="https://www.youtube.com/embed/c-BIULucPEg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
     p.my-5(data-aos="fade-down-left") Para la determinación de la irradiación global horizontal diaria en alguna zona específica del país, se tienen varias opciones dentro de las cuales se destacan las siguientes:
     //- titulo con figura
-    .row.align-items-center.correr-izq.mb-0(data-aos="fade-down-right")
-      .col-1.pad1
-        img(src='@/assets/curso/tema1/triangulo.svg')
-      .col-11
+    .row.align-items-center.mb-0.mt-5(data-aos="fade-down-right")
+      .col-sm-1.col-2
+        img.flecha(src='@/assets/curso/tema1/triangulo.svg')
+      .col-sm-11.col-10.correr-izq
         h4.mb-0.ps-0.ms-0 A. Atlas Solar de Radiación Solar, Ultravioleta y Ozono de Colombia (opción 1):
     p.my-5(data-aos="fade-down-right") Según IDEAM, UPME. (2017) el Atlas de Radiación Solar, Ultravioleta y Ozono de Colombia es una herramienta fundamental para la valoración de la disponibilidad de la energía solar en el territorio nacional y para conocer el comportamiento de la radiación ultravioleta, el ozono y sus relaciones, que contribuyen a entender sus efectos en la salud humana.  El atlas contiene un conjunto de mapas climatológicos en donde se representan la distribución promedio mensual y anual de las siguientes variables: irradiación solar global horizontal, brillo solar, número de días al mes sin brillo solar, radiación ultravioleta y la columna total de ozono, acompañadas de análisis regionales del comportamiento promedio anual y a lo largo del año de estas variables. También contiene datos teóricos acerca del comportamiento del sol, información acerca de las fuentes de información e instrumentos de medición, y anexos con información adicional.
     .row.justify-content-center
@@ -202,42 +200,42 @@
           .col-lg-3.col-md-5.col-sm-6.col-7
             p.text-white.fuente14 Nota. IDEAM, UPME (2017).
     //- titulo con figura
-    .row.align-items-center.correr-izq.mb-0(data-aos="fade-down-right")
-      .col-1.pad1
-        img(src='@/assets/curso/tema1/triangulo.svg')
-      .col-11
+    .row.align-items-center.mb-0.mt-5(data-aos="fade-down-right")
+      .col-sm-1.col-2
+        img.flecha(src='@/assets/curso/tema1/triangulo.svg')
+      .col-sm-11.col-10.correr-izq
         h4.mb-0.ps-0.ms-0 B. Bases de datos con información satelital y climática (opción 2):
     p.my-5(data-aos="fade-down-right") Cuando se requiere realizar un diseño con ingeniería detallada para la evaluación energética de por ejemplo un sistema solar fotovoltaico y un sistema solar térmico, generalmente se realiza la consulta de las bases de datos de organizaciones o empresas quienes han recogido y procesado la información proveniente de las estaciones meteorológicas locales de cada país y la han complementado con información proveniente de los satélites. Algunas de estas bases de datos suministran la información de forma gratuita y en otras se debe pagar por la información. Algunos ejemplos de bases de datos más conocidas son:
-    .row.justify-content-center.fondo-1.p-4
+    .row.justify-content-center.fondo-1.p-4.align-items-center
       .col-lg-4.col-md-6.col-sm-6.col-8.mb-4.mb-lg-0(data-aos="fade-down-right")
         img(src='@/assets/curso/tema2/figura2.svg')
       .col-lg-8.col-md-12(data-aos="fade-down-left")
         ul.fa-ul
-          li.otrocolor 
+          li.otrocolor.mb-3 
             i.fa-li.fa.fa-check
             span #[em NASA Power ] 
             a.mb-4(:href="('https://power.larc.nasa.gov/data-access-viewer/')" target="_blank")
               span.colorfuente (https://power.larc.nasa.gov/data-access-viewer/). 
               span Es gratuita.
-          li.otrocolor 
+          li.otrocolor.mb-3 
             i.fa-li.fa.fa-check
             span SOLARGIS 
             a.mb-4(:href="('https://solargis.com/')" target="_blank")
               span.colorfuente (https://solargis.com/) 
               span Se debe pagar una suscripción, sin embargo algunos mapas son gratis.
-          li.otrocolor 
+          li.otrocolor.mb-3
             i.fa-li.fa.fa-check
             span Meteonorm 
             a.mb-4(:href="('https://meteonorm.com/en/')" target="_blank")
               span.colorfuente (https://meteonorm.com/en/). 
               span Se debe pagar una suscripción.
-          li.otrocolor 
+          li.otrocolor.mb-3
             i.fa-li.fa.fa-check
             span PVGIS 
             a.mb-4(:href="('https://ec.europa.eu/jrc/en/pvgis')" target="_blank")
               span.colorfuente (https://ec.europa.eu/jrc/en/pvgis) 
               span Es gratuita.
-          li.otrocolor 
+          li.otrocolor.mb-3
             i.fa-li.fa.fa-check
             span #[em Global Solar Atlas] 
               a.mb-4(:href="('https://globalsolaratlas.info')" target="_blank")
@@ -278,31 +276,28 @@
         .row.justify-content-center
           .col-md-5.col-sm-6.col-10.fondo-blanco.redondearpuntas.sombras.p-4(data-aos="fade-down-right")
             p.mb-0.text-bold.text-center P/A = 1/2 * p * V<sup>3</sup>[W/m<sup>2</sup>]
-        p.my-5(data-aos="fade-down-right") Las unidades de la densidad de potencia se expresan en W/m<sup>2</sup>. Si se desea conocer la densidad de energía
-    .row.justify-content-center.mt-5
+        p.my-5(data-aos="fade-down-right") Las unidades de la densidad de potencia se expresan en W/m<sup>2</sup>. Si se desea conocer la densidad de energía.
+    .row.justify-content-center.mt-5.align-items-center
       .col-lg-6.col-md-12.mb-4(data-aos="fade-down-right")
         img(src='@/assets/curso/tema2/imagen12.png')
       .col-lg-6.col-md-12(data-aos="fade-down-left")
-        h4.mt-4 De acuerdo con IDEAM, UPME (2006), 
-        p La densidad del aire es un factor determinante en las mediciones, porque es diferente para cada sitio y algunas veces solo para casos prácticos se puede asumir con un valor de 1 Kg/m3. Debido a esta relación, pequeñas variaciones en la velocidad del viento representan grandes cambios en el contenido de energía.
+        p De acuerdo con IDEAM, UPME (2006), la densidad del aire es un factor determinante en las mediciones, porque es diferente para cada sitio y algunas veces solo para casos prácticos se puede asumir con un valor de 1 Kg/m3. Debido a esta relación, pequeñas variaciones en la velocidad del viento representan grandes cambios en el contenido de energía.
         .div.fondo-19.px-4.py-3
-          h4 Por ejemplo,
-          p Si en un sitio se miden 5 m/s como media de velocidad del viento y en otro cercano se miden 6 m/s, es decir una variación del 16% en los valores de la velocidad del viento, la variación de la densidad de potencia entre estos dos puntos a pesar de estar muy cercanos es del 58%. Debido a lo anterior, en lugares donde los valores de la velocidad del viento son bajos, se obtienen menores valores de densidad de potencia, mientras que donde los valores promedio del viento son mayores, la densidad de potencia y por lo tanto la densidad de energía crece de forma potencialmente al cubo de dicha velocidad.
+          p Por ejemplo, si en un sitio se miden 5 m/s como media de velocidad del viento y en otro cercano se miden 6 m/s, es decir una variación del 16% en los valores de la velocidad del viento, la variación de la densidad de potencia entre estos dos puntos a pesar de estar muy cercanos es del 58%. Debido a lo anterior, en lugares donde los valores de la velocidad del viento son bajos, se obtienen menores valores de densidad de potencia, mientras que donde los valores promedio del viento son mayores, la densidad de potencia y por lo tanto la densidad de energía crece de forma potencialmente al cubo de dicha velocidad.
     p.my-5(data-aos="fade-down-left") Por lo general, los vientos con intensidades iguales o superiores a 5 m/s equivalentes a (P/A) de 63 W/m2 proporcionan una buena alternativa para uso de energía en pequeños proyectos eólicos instalados cerca de superficie (entre 5 y 10 metros de altura). Sin embargo, para proyectos de gran envergadura como parques eólicos, se requiere hacer mediciones para alturas superiores, en donde se encuentran valores de velocidad del viento superiores, y en donde se puedan instalar aerogeneradores con alturas que permitan aprovechar al máximo las condiciones ambientales del lugar.
     h4 Contexto Nacional del Potencial Energético de la Energía Eólica.
     p.mb-5 De manera similar al potencial energético solar, en Colombia se han realizado varios estudios donde se recopila la información de diferentes estaciones meteorológicas públicas y privadas con el fin de determinar los valores promedio para el uso en estudios de evaluación de potencial energético. El IDEAM es la entidad oficial encargada de hacer el seguimiento a la radiación y cuenta con la red más grande de estaciones y de mayor cobertura.
     .row.justify-content-center
       .col-lg-6.col-md-12.fondo-1.py-4.px-5.mb-4(data-aos="fade-down-right")
-        h4.mt-4 De acuerdo con UPME (2015), 
-        p En el departamento de la Guajira se concentran los mayores promedios de vientos alisios que recibe el país durante todo el año con velocidades promedio cercanas a los 9 m/s (a 80 m de altura). Con estos valores se han realizados estudios de prefactibilidad y de acuerdo con ellos se estima un potencial energético en la zona equivalente a 18 GW eléctricos.
+        p De acuerdo con UPME (2015), en el departamento de la Guajira se concentran los mayores promedios de vientos alisios que recibe el país durante todo el año con velocidades promedio cercanas a los 9 m/s (a 80 m de altura). Con estos valores se han realizados estudios de prefactibilidad y de acuerdo con ellos se estima un potencial energético en la zona equivalente a 18 GW eléctricos.
       .col-lg-6.col-md-12(data-aos="fade-down-left")
         img(src='@/assets/curso/tema2/imagen13.jpg')
     p.my-5(data-aos="fade-down-left") Para la determinación de la densidad de energía eólica en alguna zona específica del país, se tienen varias opciones dentro de las cuales se destacan las siguientes:
     //- titulo con figura
-    .row.align-items-center.correr-izq.mb-0(data-aos="fade-down-right")
-      .col-1.pad1
-        img(src='@/assets/curso/tema1/triangulo.svg')
-      .col-11
+    .row.align-items-center.mb-0.mt-5(data-aos="fade-down-right")
+      .col-sm-1.col-2
+        img.flecha(src='@/assets/curso/tema1/triangulo.svg')
+      .col-sm-11.col-10.correr-izq
         h4.mb-0.ps-0.ms-0 A. Atlas de Viento y Energía Eólica de Colombia (opción 1):
     .row.justify-content-between.fondo-19.px-5.pt-2.pb-0.align-items-center.mt-4
       .col-lg-8.col-md-12(data-aos="fade-down-right")
@@ -353,10 +348,10 @@
             i.fas.fa-check
             | Mapa nacional mensual de la densidad de energía eólica a 50 metros de altura. (páginas 90 a 101 del documento IDEAM, UPME. (2006)).
     //- titulo con figura
-    .row.align-items-center.correr-izq.mb-0.mt-5(data-aos="fade-down-right")
-      .col-1.pad1
-        img(src='@/assets/curso/tema1/triangulo.svg')
-      .col-11
+    .row.align-items-center.mb-0.mt-5(data-aos="fade-down-right")
+      .col-sm-1.col-2
+        img.flecha(src='@/assets/curso/tema1/triangulo.svg')
+      .col-sm-11.col-10.correr-izq
         h4.mb-0.ps-0.ms-0 B. Bases de datos con información satelital y climática (opción 2):
     .row.justify-content-center.my-5.px-5.py-4.fondo-19.align-items-center
       .col-lg-8.col-md-12.mb-4(data-aos="fade-down-right")
@@ -408,29 +403,33 @@
         img(src='@/assets/curso/tema2/imagen15.jpg')
       .col-lg-6.col-md-12(data-aos="fade-down-left")
         p.p-4.fondo-19 Nuestro país no es ajeno a esta situación, y desde el año 2001 se viene trabajando en estrategias para el desarrollo de las tecnologías de generación con fuentes renovables no convencionales como la energía solar, eólica, biomasa, y recientemente el hidrógeno y la energía geotérmica. 
-          a.mb-4(:href="('https://www.shutterstock.com/es/image-photo/businessman-draw-growth-graph-progress-business-1504342112')" target="_blank")
-                span.colorfuente https://www.shutterstock.com/es/image-photo/businessman-draw-growth-graph-progress-business-1504342112
     p.mt-5(data-aos="fade-down-right") Cabe recordar que uno de los principales impactos ambientales positivos de este tipo de energías es la generación de energía con cero emisiones de GEI, con lo cual es posible cumplir las metas de reducción de emisiones propuestas a nivel país.
     p.mb-5(data-aos="fade-down-left") Según UPME (2020) “El reto de los próximos 30 años será abastecer una demanda creciente de energía utilizando menos combustibles fósiles”; adicionalmente determina que la generación distribuida de electricidad con sistemas solares fotovoltaicos permitirá mejorar la competitividad del mercado eléctrico colombiano y dará mejor protagonismo al usuario para el cuidado y uso responsable de los recursos energéticos.
-    .row.mb-5
-      .col-sm-12.col-md-6.mb-4.mb-xl-0.mx-0.px-0(data-aos="fade-down-right")
-        .tarjeta.tarjeta-flip.color-secundario(@mouseover="indicadorTarjetaFlip = false")
-          .indicador--hover(v-if="indicadorTarjetaFlip")
-          .tarjeta-flip__contenedor
-            .tarjeta-flip__img(:style="{'background-image': `url(${require('@/assets/curso/tema2/flip1.png')})`}")
-            .tarjeta-flip__contenido.p-4.p-xl-5
-              p.text-center Es posible responder a esta pregunta con el siguiente ejemplo: Una fábrica de chocolates consume mensualmente en promedio 250.000 kWh de electricidad que le compra a un comercializador de energía. Si se multiplica este valor por los doce meses del año, en total estaría consumiendo 3´000.000 de kWh al año. Con los datos anteriores y utilizando el factor de emisión de 0,166 [kg CO2eq/kWh] para la energía eléctrica de determinado por la resolución UPME 385 del 2020, la huella de carbono por consumo de energía eléctrica de esta empresa es de:
-              p.mb-0.text-center Huella de carbono_electricidad = 3.000.000 kWh * 0,166 [kg CO_2eq/kWh] = 498.000
-              p.text-center [kg CO_2eq] =498 [ton CO_2eq]
 
+    .tarjeta--container.row.mb-5
+      //- .tarjeta debe ir acompañado de una de una de estas clases => 
+      //- .color-primario, .color-secundario, .color-acento-contenido, .color-acento-botones
+      //- estas clases tambien tienen un modificador --borde
+      .col-md.tarjeta.color-secundario.p-5
+        .row.justify-content-center.mb-4
+          .col-8
+            figure
+              img(src='@/assets/curso/tema2/flip1.png')
 
-      .col-sm-12.col-md-6.mb-4.mb-xl-0.mx-0.px-0(data-aos="fade-down-left")
-        .tarjeta.tarjeta-flip(@mouseover="indicadorTarjetaFlip = false")
-          .tarjeta-flip__contenedor
-            .tarjeta-flip__img(:style="{'background-image': `url(${require('@/assets/curso/tema2/flip2.png')})`}")
-            .tarjeta-flip__contenido.p-4.p-xl-5.fondo-19
-              p.text-center Es decir, las emisiones de GEI de la empresa actualmente son de 498 toneladas de CO2eq al año. 
-              p.text-center La alta dirección de la empresa decide emprender un proyecto de generación con energía solar a través de la implementación de un sistema fotovoltaico aprovechando que tiene disponible una gran cantidad de área en los techos de cada uno de sus edificios industriales. La empresa ha contratado a una firma de ingeniería para realizar un diseño cuyo resultado final es la aprobación para la instalación de un sistema que genera en promedio 50.000 kWh al mes, es decir 600.000 kWh al año.
+        p Es posible responder a esta pregunta con el siguiente ejemplo: Una fábrica de chocolates consume mensualmente en promedio 250.000 kWh de electricidad que le compra a un comercializador de energía. Si se multiplica este valor por los doce meses del año, en total estaría consumiendo 3´000.000 de kWh al año. Con los datos anteriores y utilizando el factor de emisión de 0,166 [kg CO2eq/kWh] para la energía eléctrica de determinado por la resolución UPME 385 del 2020, la huella de carbono por consumo de energía eléctrica de esta empresa es de:
+        p.mb-0.text-center Huella de carbono_electricidad = 3.000.000 kWh * 0,166 [kg CO_2eq/kWh] = 498.000 [kg CO_2eq] =498 [ton CO_2eq]
+
+      //- .tarjeta debe ir acompañado de una de una de estas clases => 
+      //- .color-primario, .color-secundario, .color-acento-contenido, .color-acento-botones
+      //- estas clases tambien tienen un modificador --borde
+      .col-md.tarjeta.fondo-19.p-5
+        .row.justify-content-center.mb-4
+          .col-8
+            figure
+              img(src='@/assets/curso/tema2/flip2.png')
+        p.text-center Es decir, las emisiones de GEI de la empresa actualmente son de 498 toneladas de CO2eq al año. 
+        p.text-center La alta dirección de la empresa decide emprender un proyecto de generación con energía solar a través de la implementación de un sistema fotovoltaico aprovechando que tiene disponible una gran cantidad de área en los techos de cada uno de sus edificios industriales. La empresa ha contratado a una firma de ingeniería para realizar un diseño cuyo resultado final es la aprobación para la instalación de un sistema que genera en promedio 50.000 kWh al mes, es decir 600.000 kWh al año.
+
     div.fondo-27.p-4(data-aos="fade-down-right")
       p Lo anterior quiere decir que del total de los 3.000.000 de kWh al año que consume la empresa, 600.000 kWh provendrán del sistema fotovoltaico que emite cero emisiones de GEI.  Por lo tanto, el beneficio principal desde el punto de vista ambiental es que la nueva huella de carbono por concepto de consumo de energía para este usuario será de:
       p.text-center 𝐻𝑢𝑒𝑙𝑙𝑎 𝑑𝑒 𝑐𝑎𝑟𝑏𝑜𝑛𝑜_𝑒𝑙𝑒𝑐𝑡𝑟𝑖𝑐𝑖𝑑𝑎𝑑=(3.000.000−600.000) [𝑘𝑊ℎ] ∗ 0,166 [𝑘𝑔 𝐶𝑂_2𝑒𝑞/𝑘𝑊ℎ] = 398.400 [𝑘𝑔 𝐶𝑂_2𝑒𝑞] = 398,4 [𝑡𝑜𝑛 𝐶𝑂_2𝑒𝑞]
