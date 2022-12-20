@@ -142,7 +142,7 @@
             span.text-bold Existen dos formas para consultar la documentación del atlas. 
             span Una de ellas es utilizar la herramienta en línea desarrollada por el IDEAM accediendo al siguiente enlace:  
             a.mb-4(:href="('http://www.ideam.gov.co/web/tiempo-y-clima/atlas-de-colombia')" target="_blank")
-              span.colorlink http://www.ideam.gov.co/web/tiempo-y-clima/atlas-de-colombia 
+              span.colorlink http://www.ideam.gov.co/web/tiempo-y-clima/atlas-de-colombia  
             span y descargando los mapas y tablas que allí reposan. En caso de que no esté disponible la página web de IDEAM por mantenimiento, se puede descargar el documento completo del siguiente enlace: 
             .row.justify-content-center.mt-4
               .col-lg-10.col-md-12
