@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="114.916" height="119" viewBox="0 0 114.916 119">
+  <g id="Grupo_929789" data-name="Grupo 929789" transform="translate(-742.875 -1681)">
+    <text id="Fuerza" transform="translate(812.563 1696)" fill="#12263f" font-size="14" font-family="SegoeUI, Segoe UI"><tspan x="0" y="0">Fuerza</tspan></text>
+    <text id="Diafragma" transform="translate(768 1737)" fill="#12263f" font-size="14" font-family="SegoeUI, Segoe UI"><tspan x="0" y="0">Diafragma</tspan></text>
+    <text id="Presión_aplicada" data-name="Presión aplicada" transform="translate(749 1796)" fill="#12263f" font-size="14" font-family="SegoeUI, Segoe UI"><tspan x="0" y="0">Presión aplicada</tspan></text>
+    <path id="Icon_open-arrow-thick-top" data-name="Icon open-arrow-thick-top" d="M6.5,0,0,6.563H4.375V17.5H8.75V6.563h4.375Z" transform="translate(794 1685.5)"/>
+    <g id="Grupo_929781" data-name="Grupo 929781" transform="translate(0.333)">
+      <path id="Trazado_666781" data-name="Trazado 666781" d="M134.666,156.743H124.124a4.9,4.9,0,0,1,.08.8,4.829,4.829,0,1,1-9.657,0l-.08-.8a4.809,4.809,0,0,0-8.83-1.751c-3.05-3.151-14.1-5.492-27.3-5.492s-24.254,2.34-27.3,5.492a4.809,4.809,0,0,0-8.83,1.751,7.453,7.453,0,0,0-.08.8,4.829,4.829,0,1,1-9.657,0,4.9,4.9,0,0,1,.08-.8H22v35.409H73.5v14.486h9.657V192.152h51.5Z" transform="translate(721.667 1560.432)" fill="none" stroke="#000" stroke-miterlimit="10" stroke-width="2.25"/>
+      <g id="Rectángulo_327580" data-name="Rectángulo 327580" transform="translate(790 1765)" fill="#fff" stroke="#fff" stroke-width="1">
+        <rect width="20" height="7" stroke="none"/>
+        <rect x="0.5" y="0.5" width="19" height="6" fill="none"/>
+      </g>
+    </g>
+    <path id="Icon_awesome-long-arrow-alt-up" data-name="Icon awesome-long-arrow-alt-up" d="M2.977,5.537v7.4a.294.294,0,0,0,.294.294H4.645a.294.294,0,0,0,.294-.294v-7.4H6.069a.589.589,0,0,0,.416-1l-2.11-2.11a.589.589,0,0,0-.832,0l-2.11,2.11a.589.589,0,0,0,.416,1Z" transform="translate(796.742 1767.757)"/>
+  </g>
+</svg>
